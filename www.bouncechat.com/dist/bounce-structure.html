@@ -1,0 +1,76 @@
+<div class="row">
+  <div class="user-photo circular">
+    <img src="{{ bounce.author.picture }}" alt="bounce {{ bounce.author.username }} portrait"  />
+  </div>
+  <div class="name-text">
+    <h2 class="author">{{ bounce.author.username }}</h2>
+    <h4>bounced {{ bounce.postDate | prettyDurationStr }} ago</h4>
+  </div>
+  <div class="distance">
+    <h3 class="hidden-xs"><span class="distance-number">{{ bounce.distance | toFixed : 1 }} <i class="bcf bcf-eye" ng-class="{ 'active': bounce.locationVisibility == 'visible' }"></i> mi</span></h3>
+    <h3 class="visible-xs">
+      <span class="distance-number">{{ bounce.distance | toFixed : 1 }}
+        <span ng-if="bounce.locationVisibility == 'hidden'"><i class="bcf bcf-eye"></i></span>
+        <span ng-if="bounce.locationVisibility == 'visible'"><img class="eye-visible-workaround" src="src/img/eye-visible-workaround.svg" alt="Visible mode on"></span>
+        mi
+      </span>
+    </h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-18 col-sm-12 message-text">
+    <p class="message" ng-bind-html="bounce.message | linkyUnsanitized | toTrust">{{ bounce.message }}</p>
+  </div>
+</div>
+<div class="row">
+  <div class="main-image col-xs-12 col-sm-12 message-image">
+    <!-- main image served in lightbox -->
+    <a ng-if="bounce.files !== undefined" class="swipebox" href="{{ bounce.files[0].url }}" title="{{ bounce.message }}">
+      <img src="{{ bounce.files[0].url }}" class="img-responsive" alt="message image" rel="gallery-{{ bounce.bounceId }}"/>
+    </a>
+  </div>
+</div>
+<div class="row heartRow">
+  <span class="heartNameContainer">
+  <div class="heartNameContainerRow">
+  <span class="heartContainer">
+    <span class="bcf bcf-heart active"></span>
+  </span>
+  <span class="heartNameList" data-bounceid="{{ bounce.bounceId }}">
+  </span>
+  </div>
+  </span>
+</div>
+<div class="row">
+  <div class="col-xs-6 col-sm-4 expiration">
+    <i class="bcf bcf-stopwatch"></i> <span class="expiration-text">expires in {{ bounce.expDate | prettyDurationStr }}</span>
+  </div>
+  <div class="col-xs-3 col-sm-2 likes-div">
+    <a onclick="javascript:appContext.clickEventHandler('HEART',{'likeBounceId':appContext.util.getInnerElementAttributeValue(this,'i','data-bounceid')})">
+    <i class="bcf bcf-heart" data-bounceid="{{ bounce.bounceId }}" xng-class="{ 'active': bounce.likes.length > 0 }">
+    </i>
+    </a>
+<span class="number-likes" data-bounceid="{{ bounce.bounceId }}">{{ bounce.likes.length || 0 }}</span>
+  </div>
+  <div class="col-xs-3 col-sm-2 comments-div">
+    <a onclick="javascript:appContext.clickEventHandler('COMMENT',{'commentBounceId':appContext.util.getInnerElementAttributeValue(this,'i','data-bounceid')});">
+    <i class="bcf bcf-comment" data-bounceid="{{ bounce.bounceId }}"></i></a> <span class="number-comments">{{ bounce.comments.length || 0 }}</span>
+  </div>
+</div>
+<!-- bounce comments: pass the bounce to the new controller on creation -->
+<div id="comments" ng-controller="CommentsController" ng-init="init(bounce)">
+  <div class="comment" ng-repeat="comment in comments">
+    <div class="row">
+      <div class="col-xs-12 comment-section">
+        <img src="{{ comment.userPicture }}" class="img-responsive" alt="bounce {{ comment.username }} portrait" />
+        <span class="comment-name">{{ comment.username }}</span>
+        <span class="comment-text" ng-bind-html="comment.comment | linkyUnsanitized | toTrust">{{ comment.comment }}<span class="visible-xs" ng-if="comment.comment.length > 29"><!-- ... --></span></span>
+      </div>
+    </div>
+  </div>
+
+  <a class="btn btn-default load-all-comments" role="button" ng-if="bounce.comments.length > 2" ng-click="loadAllComments()" ng-hide="hideButton">Load All Comments</a>
+</div><!-- end comments -->
+<div class="row">
+	<div class="col-xs-18 col-sm-12 line-sep"></div>
+</div>
