@@ -1,29 +1,18 @@
-<html><head id="headMain">
 
-<style id="STYLEMain">#DIVScreen{ position: fixed; left: 0%; top: 0%; z-index: 1000;}
-#DIVScreenSplash{ position: fixed; left: 0%; top: 0%; width: 100%; height: 100%; z-index: 1000;}
+<!DOCTYPE html>
+<html>
+<head id="headMain">
+<style id="STYLEMain">
+#DIVScreen{ position: fixed; left: 0%; top: 0%; z-index: 1000;}
+#DIVScreenSplash{ background-color:black;display:none;position: fixed; left: 0%; top: 0%; width: 100%; height: 100%; z-index: 1000;}
 #DIVDesignSplash{ position: fixed; left: 0%; top: 0%; z-index: 10000;}
 #IMGDesignImage{ position: fixed; left: 0%; top: 0%; z-index: 10005; display: none;}
 #CANVASSplashBackground{ position: fixed; left: 0%; top: 0%; width: 100%; height: 100%;}
 #CANVASSplashHeader{ position: fixed; left: 30%; top: 2%; width: 40%; height: 15%;}
 #CANVASSplashDisplay{ width: 100%; height: 80%; position: fixed; left: 0%; top: 20%;}
 </style>
-</head>
-<body>
-<div id="formIFrameMain">
-
-		<div id="DIVMain">
-			<div id="DIVScreen">
-				<div id="DIVScreenSplash">
-					<div id="DIVDesignSplash">
-						<img id="IMGDesignImage" src="IMGDesignSplash.png" resize="true" onload="setTimeout(function(){init();},10);">
-						<div id="DIVDesignImageHeader" style=" position: fixed; left: 50.0139px; top: 71.4722px; width: 145px; height: 28px; z-index: 10008;"></div>
-						<div id="DIVDesignImageBackground" style=" z-index: 10008; position: fixed; left: 108.899px; top: 99.7778px; width: 25px; height: 25px;"></div>
-						<div id="DIVDesignImageDisplay" style=" position: fixed; left: 20px; top: 153.778px; width: 204; height: 215.778px; z-index: 10008;"></div></div>
-					<canvas id="CANVASSplashBackground"></canvas>
-					<canvas id="CANVASSplashHeader" width="145" height="28"></canvas>
-					<canvas id="CANVASSplashDisplay"></canvas></div></div></div>
-		<script id="SCRIPTInit" type="text/javascript">function drawDesignImages(){
+<script id="SCRIPTInit" type="text/javascript">
+function drawDesignImages(){
 var uiBindMap=[{'image':'IMGDesignImage','imageDIV':'DIVDesignImageHeader','interfaceCanvas':'CANVASSplashHeader'},{'image':'IMGDesignImage','imageDIV':'DIVDesignImageBackground','interfaceCanvas':'CANVASSplashBackground'},{'image':'IMGDesignImage','imageDIV':'DIVDesignImageDisplay','interfaceCanvas':'CANVASSplashDisplay'}
 ];
 for(var binding in  uiBindMap){
@@ -34,8 +23,41 @@ var ctx=dstXYWH.getContext('2d');
 ctx.drawImage(srcImg,parseInt(srcXYWH.style.left),parseInt(srcXYWH.style.top),parseInt(srcXYWH.style.width),parseInt(srcXYWH.style.height),0,0,parseInt(dstXYWH.width),parseInt(dstXYWH.height));
 }
 }
+var fadeInInterval=null;
+var fadeInValue=0;
+function startFade(){
+   document.getElementById('DIVScreenSplash').style.display='block';
+   document.getElementById('DIVScreenSplash').style.transform='scale(0)';
+  fadeInInterval=setInterval(fadeIn,100);
+}
+function fadeIn(){
+   drawDesignImages();
+   document.getElementById('DIVScreenSplash').style.opacity=parseFloat(++fadeInValue)/parseFloat(100.0);
+   document.getElementById('DIVScreenSplash').style.transform=
+          'scale('+parseFloat(fadeInValue)/parseFloat(100.0)+') '+
+          'rotateY('+360*3*parseFloat(fadeInValue)/parseFloat(100.0)+'deg) '+
+          'rotateZ('+360*3*parseFloat(fadeInValue)/parseFloat(100.0)+'deg) ';
+   document.getElementById('DIVScreenSplash').style.transformOrigin='center';
+   if(fadeInValue>=100){clearInterval(fadeInInterval);}
+}
 function init(){
 drawDesignImages();
-}</script></div>
-
-</body></html>
+startFade();
+}
+</script>
+</head>
+<body onload="setTimeout(function(){document.getElementById('IMGDesignImage').src='IMGDesignSplash.png';},1);">
+<div id="formIFrameMain">
+		<div id="DIVMain">
+			<div id="DIVScreen">
+				<div id="DIVScreenSplash">
+					<div id="DIVDesignSplash">
+					  <img id="IMGDesignImage" src="" onload="setTimeout(function(){init();},10);">					<div id="DIVDesignImageHeader" style=" position: fixed; left: 50.0139px; top: 71.4722px; width: 145px; height: 28px; z-index: 10008;"></div>
+					  <div id="DIVDesignImageBackground" style=" z-index: 10008; position: fixed; left: 108.899px; top: 99.7778px; width: 25px; height: 25px;"></div>
+					  <div id="DIVDesignImageDisplay" style=" position: fixed; left: 20px; top: 153.778px; width: 204; height: 215.778px; z-index: 10008;"></div></div>
+					<canvas id="CANVASSplashBackground"></canvas>
+					<canvas id="CANVASSplashHeader" width="145" height="28"></canvas>
+					<canvas id="CANVASSplashDisplay"></canvas></div></div></div>
+</div>
+</body>
+</html>
