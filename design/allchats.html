@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, 
+caption, tbody, tfoot, thead, tr, th, td 
+                  {margin: 0;padding: 0;border: 0;outline: 0;
+                  font-size: 100%;vertical-align: baseline;
+                  background: transparent;}
+body              {line-height: 1;}
+ol, ul            {list-style: none;}
+blockquote, q     {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: ''; content: none;}
+:focus            {outline: 0;}
+ins               {text-decoration: none;}
+del               {text-decoration: line-through;}
+table             {border-collapse: collapse;border-spacing: 0;}
+@font-face {
+    font-family: 'fira_sansregular';
+    src: url('firasans-regular-webfont.eot');
+    src: url('firasans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('firasans-regular-webfont.woff2') format('woff2'),
+         url('firasans-regular-webfont.woff') format('woff'),
+         url('firasans-regular-webfont.ttf') format('truetype'),
+         url('firasans-regular-webfont.svg#fira_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#divRoot{position:fixed;top:-17vh;bottom: -18vh;width:138%;left:-19%;background-color:white;}
+#divView{position:absolute;left:50%;width:100%;margin-left:-34.5vh;height: 100%;width:69vh;}
+.font1{font-family: "fira_sansregular", "sans-serif", "serif", "Times";font-size:2.795781399808245vh; color: #7c848d;}
+.font2{font-family: "fira_sansregular", "sans-serif", "serif", "Times";font-size:1.86385426653883vh; color: #7c848d;}
+.font3{font-family: "fira_sansregular", "sans-serif", "serif", "Times";font-size:0.931927133269415vh; color: #7c848d;}
+.font4{font-family: "fira_sansregular", "sans-serif", "serif", "Times";font-size:0.931927133269415vh; color: #ffffff;}
+.font5{font-family: "fira_sansregular", "sans-serif", "serif", "Times";font-size:2.795781399808245vh; color: #231f20;}
+.font6{font-family: "fira_sansregular", "sans-serif", "serif", "Times";font-size:4.193672099712368vh; color: #7c848d;}
+.font7{font-family: "fira_sansregular", "sans-serif", "serif", "Times";font-size:3.261744966442953vh; color: #7c848d;}
+.font8{font-family: "fira_sansregular", "sans-serif", "serif", "Times";font-size:1.86385426653883vh; color: #7c848d;}
+.font9{font-family: "fira_sansregular", "sans-serif", "serif", "Times";font-size:1.397890699904123vh; color: #7c848d;}
+.font10{font-family: "fira_sansregular", "sans-serif", "serif", "Times";font-size:1.86385426653883vh; color: #f47215;}
+.font11{font-family: "fira_sansregular", "sans-serif", "serif", "Times";font-size:1.86385426653883vh; color: #ffffff;}
+.font12{font-family: "fira_sansregular", "sans-serif", "serif", "Times";font-size:0.931927133269415vh; color: #b9b9bc;}
+.font13{font-family: "fira_sansregular", "sans-serif", "serif", "Times";font-size:0.931927133269415vh; color: #3c3e41;}
+.font14{font-family: "fira_sansregular", "sans-serif", "serif", "Times";font-size:4.659635666347076vh; color: #f47215;}
+#img1{white-space:pre;position:absolute;top:0.617283950617284%;left:0.823045267489712%;width:99.1769547325103%;height:98.559670781893%;}
+#img2{white-space:pre;position:absolute;top:80.2469135802469%;left:8.230452674897119%;width:85.1851851851852%;height:6.995884773662551%;}
+#img3{white-space:pre;position:absolute;top:80.2469135802469%;left:8.230452674897119%;width:85.1851851851852%;height:6.995884773662551%;}
+#img4{white-space:pre;position:absolute;top:36.6255144032922%;left:6.995884773662551%;width:86.4197530864197%;height:37.2427983539095%;}
+#img5{white-space:pre;position:absolute;top:81.4814814814815%;left:9.053497942386832%;width:9.876543209876543%;height:4.938271604938271%;}
+#img6{white-space:pre;position:absolute;top:81.4814814814815%;left:83.1275720164609%;width:9.465020576131687%;height:4.732510288065844%;}
+#img7{white-space:pre;position:absolute;top:26.9547325102881%;left:9.876543209876543%;transform:rotate(90deg);width:11.522633744856%;height:5.967078189300412%;}
+#div8{white-space:pre;position:absolute;top:82.9218106995885%;left:29.6296296296296%;width:33.3333333333333%;height:2.05761316872428%;}
+#div9{white-space:pre;position:absolute;top:74.4855967078189%;left:17.6954732510288%;width:47.3251028806584%;height:1.646090534979424%;}
+#div10{white-space:pre;position:absolute;top:77.9835390946502%;left:17.6954732510288%;width:14.8148148148148%;height:1.234567901234568%;}
+#div11{white-space:pre;position:absolute;top:81.0699588477366%;left:17.6954732510288%;width:2.05761316872428%;height:1.02880658436214%;}
+#div12{white-space:pre;position:absolute;top:34.156378600823%;left:10.6995884773663%;width:69.1358024691358%;height:2.05761316872428%;}
+#div13{white-space:pre;position:absolute;top:27.9835390946502%;left:23.0452674897119%;width:14.40329218107%;height:2.05761316872428%;}
+#div14{white-space:pre;position:absolute;top:27.3662551440329%;left:37.4485596707819%;width:1.234567901234568%;height:2.674897119341564%;}
+#div15{white-space:pre;position:absolute;top:27.5720164609054%;left:38.6831275720165%;width:1.234567901234568%;height:2.263374485596708%;}
+#div16{white-space:pre;position:absolute;top:30.2469135802469%;left:22.6337448559671%;width:0.823045267489712%;height:1.646090534979424%;}
+#div17{white-space:pre;position:absolute;top:30.4526748971193%;left:23.0452674897119%;width:4.11522633744856%;height:1.234567901234568%;}
+#div18{white-space:pre;position:absolute;top:30.6584362139918%;left:27.5720164609054%;width:6.172839506172839%;height:1.02880658436214%;}
+#div19{white-space:pre;position:absolute;top:30.4526748971193%;left:33.7448559670782%;width:2.469135802469136%;height:1.234567901234568%;}
+#div20{white-space:pre;position:absolute;top:30.6584362139918%;left:35.8024691358025%;width:2.469135802469136%;height:1.02880658436214%;}
+#div21{white-space:pre;position:absolute;top:30.4526748971193%;left:38.6831275720165%;width:8.641975308641975%;height:1.234567901234568%;}
+#div22{white-space:pre;position:absolute;top:27.1604938271605%;left:75.3086419753086%;width:13.5802469135802%;height:1.440329218106996%;}
+#div23{white-space:pre;position:absolute;top:29.2181069958848%;left:76.9547325102881%;width:10.2880658436214%;height:1.851851851851852%;}
+#div24{white-space:pre;position:absolute;top:28.3950617283951%;left:40.7407407407407%;width:4.938271604938271%;height:1.234567901234568%;}
+#div25{white-space:pre;position:absolute;top:24.6913580246914%;left:8.230452674897119%;width:25.5144032921811%;height:1.234567901234568%;}
+#div26{white-space:pre;position:absolute;top:24.6913580246914%;left:33.7448559670782%;width:15.2263374485597%;height:1.234567901234568%;}
+#div27{white-space:pre;position:absolute;top:24.6913580246914%;left:49.3827160493827%;width:2.880658436213992%;height:1.234567901234568%;}
+#div28{white-space:pre;position:absolute;top:24.6913580246914%;left:51.8518518518518%;width:15.2263374485597%;height:1.234567901234568%;}
+#div29{white-space:pre;position:absolute;top:24.6913580246914%;left:67.4897119341564%;width:22.2222222222222%;height:1.234567901234568%;}
+#div30{white-space:pre;position:absolute;top:22.2222222222222%;left:48.559670781893%;width:3.703703703703703%;height:1.234567901234568%;}
+#div31{white-space:pre;position:absolute;top:13.5802469135802%;left:41.5637860082305%;width:18.5185185185185%;height:3.292181069958848%;}
+#div32{white-space:pre;position:absolute;top:18.5185185185185%;left:10.6995884773663%;width:9.876543209876543%;height:1.646090534979424%;}
+
+</style>
+</head>
+<body>
+<div id="divRoot">
+  <div id="divView">
+<img id="img1" src="bouncechat-2_1.png"/>
+    <img id="img2" src="bouncechat-2_2.png"/>
+    <img id="img3" src="bouncechat-2_3.png"/>
+    <img id="img4" src="bouncechat-2_4.png"/>
+    <img id="img5" src="bouncechat-2_5.png"/>
+    <img id="img6" src="bouncechat-2_6.png"/>
+    <img id="img7" src="bouncechat-2_7.png"/>
+    <div  id="div8"class="font1">Bounce what you love!</div>
+    <div  id="div9"class="font2">joe, larry, antonio, gordon, larry, lexi</div>
+    <div  id="div10"class="font3">Lasts for eternity</div>
+    <div  id="div11"class="font4">17</div>
+    <div  id="div12"class="font1">Dude...chill... your car is already super fassssst!</div>
+    <div  id="div13"class="font5">swedeen</div>
+    <div  id="div14"class="font6"> </div>
+    <div  id="div15"class="font7"> </div>
+    <div  id="div16"class="font8"> </div>
+    <div  id="div17"class="font9">14.4</div>
+    <div  id="div18"class="font3">            </div>
+    <div  id="div19"class="font9">mi</div>
+    <div  id="div20"class="font3">     </div>
+    <div  id="div21"class="font9">44m ago</div>
+    <div  id="div22"class="font10">porsche 911</div>
+    <div  id="div23"class="font11">join chat</div>
+    <div  id="div24"class="font4">follow</div>
+    <div  id="div25"class="font12">        place                      event</div>
+    <div  id="div26"class="font3">                           </div>
+    <div  id="div27"class="font13">city</div>
+    <div  id="div28"class="font3">                           </div>
+    <div  id="div29"class="font12">area                     galactic</div>
+    <div  id="div30"class="font4">10m</div>
+    <div  id="div31"class="font14">All Chats</div>
+    <div  id="div32"class="font8">All Chats</div>
+    </div>
+</div>
+</body>
+</html>
