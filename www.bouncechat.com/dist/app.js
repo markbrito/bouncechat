@@ -594,6 +594,7 @@ var authentication={
     "initialize":function(){
 	$(document).ready(function(){
 	    appContext.getBearerToken();
+	    appContext.getFacebookId();
 	    appContext.getUserId();
 	});
     },
@@ -601,12 +602,12 @@ var authentication={
 	return	appContext.BEARER_TOKEN=window.localStorage.getItem('ls.api_key');
     },
     "getFacebookId":function(){
-	return window.localStorage.getItem('ls.fb_id');
+	return appContext.faceBookId=window.localStorage.getItem('ls.fb_id');
     },
     "getUserId":function(){
 	appContext.userId=window.localStorage.getItem('ls.userId');
 	appContext.facebookId=appContext.getFacebookId();
-	if(!(facebookId==null || facebookId==undefined || facebookId=='') &&
+	if(!(appContext.facebookId==null || appContext.facebookId==undefined || appContext.facebookId=='') &&
 	   (appContext.userId==null || appContext.userId==undefined || appContext.userId=='')){
 	    app.authentication.clearLocalStorageAndLogout();
 	}
@@ -626,7 +627,7 @@ var eventHandlers={
 	else { event.cancelBubble = true; }
 	var requestTimeout=appContext.requestTimeout[
 	    appContext.requestNameIndex.indexOf(requestName)];
-	if(requestTimeout!=""){return false;}
+	if(requestTimeout!=0 ){return false;}
 	appContext.BEARER_TOKEN=appContext.getBearerToken();
 	if((appContext.BEARER_TOKEN==null || appContext.BEARER_TOKEN==undefined || appContext.BEARER_TOKEN=='')
 	   && appContext.eventRequiresToken[appContext.requestNameIndex.indexOf(requestName)]){
@@ -636,23 +637,28 @@ var eventHandlers={
 	var arguments=args;
 	appContext.eventArguments[appContext.requestNameIndex.indexOf(requestName)]=arguments;
 	eventHandler(requestName,arguments);
-	appContext.requestTimeout[
-	    appContext.requestNameIndex.indexOf(requestName)]=
-	    setTimeout('try{var xhr=appContext.asyncJSONHTTPRequest['+
+	var requestedIndex=appContext.requestNameIndex.indexOf(requestName);
+	appContext.requestTimeout
+	[appContext.requestNameIndex.indexOf(requestName)]=	 
+	    setTimeout('try{'+
+		       'clearTimeout(appContext.requestTimeout['+requestedIndex+']);'+
+		       '}catch(e){}try{try{'+
+		       'var xhr=appContext.asyncJSONHTTPRequest['+
 		       appContext.requestNameIndex.indexOf(requestName)+
 		       '];if(xhr!=null && xhr!=undefined && xhr!=""'+
-		       '&& xhr.readyState != 4){xhr.abort();}}'+
-		       'catch(e){;}appContext.util.asyncHTTPJSONCompleteCallBackCompleted("",'
-		       appContext.requestNameIndex.indexOf(requestName)+
-		       ');alert("Timeout on '+requestName+'. Try again.");',
+		       ' && xhr.readyState != 4){xhr.abort();}'+
+		       '}catch(exc){;}'+
+		       'appContext.requestTimeout['+requestedIndex+']=0;'+
+		       'appContext.asyncJSONHTTPRequest['+requestedIndex+']=0;'+
+		       '}catch(excp){;}',
 		       appContext.configuration.AJAX_TIME_OUT);
-	return false;
+	return true;
     },
     "bounceHeartClick":function(requestName,likeArgs){
 	var heartEl=$("i.bcf-heart[data-bounceid='"+likeArgs.likeBounceId+"']")[0];
 	appContext.eventArguments[appContext.requestNameIndex.indexOf(requestName)].likeBounceId=$(heartEl).attr('data-bounceid');
-	setTimeout('appContext.asyncEventHandler.asyncHeartClick('+appContext.eventArguments[1].likeBounceId+',"'+requestName+'",'+JSON.stringify(likeArgs)+');',1);
-	return false;
+	appContext.asyncEventHandler.asyncHeartClick(appContext.eventArguments[1].likeBounceId,requestName,likeArgs);
+	return true;
     },
     "asyncHeartClick":function(bounceId,requestName,args){
 	var requestIndex=appContext.requestNameIndex.indexOf('HEART');
@@ -670,7 +676,7 @@ var eventHandlers={
 };
 
 /* NETWORK CLASS */
-var network={
+var network={ 
     "asyncHTTPRequest":function(requestName,parms,failcallback,donecallback){
 	var requestIndex=appContext.requestNameIndex.indexOf(requestName);
 	try{
@@ -679,51 +685,44 @@ var network={
 		    failcallback(jqXHR,textStatus);
 		}).
 		done(function(result){
-		    setTimeout('donecallback('+JSON.stringify(result)+');',1);
-		});
+		    donecallback(result);
+	});
 	}catch(e){
 	    appContext.util.exceptionHandler(e);
-	    appContext.util.asyncHTTPJSONCompleteCallBackCompleted('',requestIndex);
 	}
     },
     "asyncHTTPJSONComplete":function(result ,completeCallback,requestedIndex) {
 	try{
-	    if(appContext.requestTimeout[requestedIndex]=="" ||
-	       appContext.requestTimeout[requestedIndex]==null ||
-	       appContext.requestTimeout[requestedIndex]==undefined)return false;
 	    if(completeCallback!=null && completeCallback!=undefined && completeCallback!='')
 		completeCallback(result);
 	}catch(e){;}
-    },
-    "asyncHTTPJSONCompleteCallBackCompleted":function(result,requestIndex){
-	try{
-	    clearTimeout(appContext.requestTimeout[requestedIndex]);
+	finally{
 	    try{
-		appContext.requestTimeout[requestedIndex]="";
-		appContext.asyncJSONHTTPRequest[requestedIndex]="";
-	    }catch(exx){;}
-	}catch(ex){;}
-    }
+		clearTimeout(appContext.requestTimeout[requestedIndex]);
+		try{
+		    appContext.requestTimeout[requestedIndex]=0;
+		    appContext.asyncJSONHTTPRequest[requestedIndex]=0;
+		}catch(exc){;}
+	    }catch(excp){;}
+	}
+    },
     "asyncHTTPJSONFailed":function asyncHTTPJSONFailed( jqXHR, textStatus, failCallback, requestedIndex ) {
 	try{
 	    if(failCallback!=null && failCallback!=undefined && failCallback!='')
 		failCallback(jqXHR,textStatus);
 	}catch(e){;}
 	finally{
-	    appContext.network.asyncHTTPJSONCallTimeoutDestructructor(requestedIndex)
-	};
-	alert( "Request failed: " + textStatus );
-    },
-    "asyncHTTPJSONCallTimeoutDestructructor":function(requestIndex){
-	try{
-	    clearTimeout(appContext.requestTimeout[requestedIndex]);
 	    try{
-		appContext.requestTimeout[requestedIndex]="";
-		appContext.asyncJSONHTTPRequest[requestedIndex]="";
-	    }catch(exx){;}
-	}catch(ex){;}
-    }
-};
+		clearTimeout(appContext.requestTimeout[requestedIndex]);
+		try{
+		    appContext.requestTimeout[requestedIndex]=0;
+		    appContext.asyncJSONHTTPRequest[requestedIndex]=0;
+		}catch(exc){;}
+	    }catch(excp){;}
+	};
+	errorMessage("Request failed: " + textStatus );
+    },
+} ;
 
 /* USER INTERFACE CLASS */
 var userinterface={
@@ -740,11 +739,16 @@ var userinterface={
             }else{
                 heart.setAttribute('class',heartclass+' active');
             }
+
         }catch(e){
 	    appContext.util.exceptionHandler(e);
 	}
 	finally{
-	    appContext.network.asyncHTTPJSONCallTimeoutDestructructor(requestedIndex);
+	    try{
+		if(completeCallback!=null && completeCallback!=undefined && completeCallback!=''){
+		    completeCallback(result);
+		}
+	    }catch(e){;}
 	}
 	return requestIndex;
     },
@@ -777,6 +781,14 @@ var userinterface={
 		    heart.setAttribute('class',heartclass.replace(/ active/g,''));
 		}
 	    }
+	    // onclick="javascript:appContext.clickEventHandler('HEART',{'likeBounceId':appContext.util.getInnerElementAttributeValue(this,'i','data-bounceid')})">
+	    // onclick="javascript:appContext.clickEventHandler('COMMENT',{'commentBounceId':appContext.util.getInnerElementAttributeValue(this,'i','data-bounceid')});">
+	    $('a.heartClick').each(function(k,v){
+		$(this).click(function(){appContext.clickEventHandler('HEART',{'likeBounceId':appContext.util.getInnerElementAttributeValue(this,'i','data-bounceid')})});
+	    });
+	    $('a.commentClick').each(function(k,v){
+		$(this).click(function(){appContext.clickEventHandler('COMMENT',{'likeBounceId':appContext.util.getInnerElementAttributeValue(this,'i','data-bounceid')})});
+	    });
 	}
     }
 }
@@ -814,7 +826,7 @@ var appContext={
     "configuration":{
 	"API_BASE_URL": "http://ibounce.co:8678",
 	"API_QUERY_STRING":"v=2.1",
-	"AJAX_TIME_OUT":30000,
+	"AJAX_TIME_OUT":8000,
 	"FACEBOOK_API_KEY": "373372816160699",
 	"FACEBOOK_API_KEY_WWW_BOUNCECHAT_COM":"373372816160699",
         "FACEBOOK_API_KEY_LOCAL_BOUNCECHAT_COM":"452593051600402",
@@ -824,8 +836,8 @@ var appContext={
 Each array element on the same index on all of the arrays in this object
 are related. 
 */  "requestNameIndex":["SEARCH","HEART","COMMENT"],
-    "requestId":{"searchId":"","likeBounceId":"","commentBounceId":""},
-    "requestTimeout":["","",""],
+    "requestId":{"searchId":"","likeBounceId":"","commentBounceId":"",},
+    "requestTimeout":[0,0,0],
     "eventArguments":[{},{"likeBounceId":""},{"commentBounceId":""}],    
     "eventRequiresToken":[false,true,true],
 
@@ -844,15 +856,19 @@ original event handle the JSON request and then call the standard
 asyncHTTPJSON[Failed/Complete] handlers to handle standard event processing
 managment common to the event system. At that point the final handler for 
 processing the request is executed asynchronously without blocking.
-*/    "asyncHTTPRequestCallback":[
-	{"fail":function(jqXHR,textStatus){appContext.network.asyncHTTPJSONFailed( jqXHR, textStatus,
-	 "done":function(result){appContext.network.asyncHTTPJSONComplete(result,function(){},0);return true;}},
+*/    
+    "asyncHTTPRequestCallback":[
+	{"fail":function(jqXHR,textStatus){appContext.network.asyncHTTPJSONFailed( jqXHR, textStatus, function(){},0);return true;},
+	 "done":function(result){appContext.network.asyncHTTPJSONComplete(result,function(){},0);return true;},
+	},
 	{"fail":function(jqXHR,textStatus){appContext.network.asyncHTTPJSONFailed( jqXHR, textStatus, function(){},1);return true;},
-	 "done":function(result){appContext.network.asyncHTTPJSONComplete(result,
-									  userinterface.renderLikeBounceJSON, 1 );return true;},},
-//--------Notice this final event handler that renders the screen---- -->
-	   {"fail":function(jqXHR,textStatus){appContext.network.asyncHTTPJSONFailed( jqXHR, textStatus,function(){}, 2 );return true;},
-	 "done":function(result){appContext.network.asyncHTTPJSONComplete(result ,function(){},2);return true;}}
+	 "done":function(result){
+	     appContext.network.asyncHTTPJSONComplete(result,appContext.userinterface.renderLikeBounceUI, 1 );return true;},
+	},
+	{"fail":function(jqXHR,textStatus)
+	 {appContext.network.asyncHTTPJSONFailed( jqXHR, textStatus,function(){}, 2 );return true;},
+	 "done":function(result){appContext.network.asyncHTTPJSONComplete(result ,function(){},2);return true;},
+	}
     ],
 /* ASYNC REQUEST HANDLER METHODS
 You pass in your handlers into these objects.  The final one is for after your
@@ -861,27 +877,27 @@ timeout incase a handler hangs, so it doesn't lock the event system, it will
 unlock.
 */  
   "network":{
-    "asyncHTTPRequest":network.asyncHTTPRequest,
-    "asyncHTTPJSONFailed":network.asyncHTTPJSONFailed,
-    "asyncHTTPJSONComplete":network.asyncHTTPJSONComplete,
-    "asyncHTTPJSONCompleteCallBackCompleted":network.asyncHTTPJSONCompleteCallBackCompleted",
-"asyncHTTPJSONCallTimeoutDestructructor":network.asyncHTTPJSONCallTimeoutDestructructor
-},
-
+    "asyncHTTPRequest":
+      network.asyncHTTPRequest,
+    "asyncHTTPJSONFailed":
+      network.asyncHTTPJSONFailed,
+    "asyncHTTPJSONComplete":
+      network.asyncHTTPJSONComplete,
+  },
 /* JSON RESULTS AND UI RENDERING LOGIC
 This is the retrieved data and likely the final event for rendering
 */  "resultJSON":{"searchJSON":"","likeJSON":"","commentJSON":""},
 
     "userinterface":{
-	"renderLikeBounceUI":userinterface.renderLikeBounceJSON,
+	"renderLikeBounceUI":userinterface.renderLikeBounceUI,
 	"updateBounceUI":userinterface.updateBounceUI
     },
 
     "util":{
 	"getInnerElementAttributeValue":util.getInnerElementAttributeValue,
 	"asyncHTTPJSONErrorHandler":util.asyncHTTPJSONErrorHandler,
-"exceptionHandler":util.exceptionHandler,
-"errorMessage":util.errorMessage,
+	"exceptionHandler":util.exceptionHandler,
+	"errorMessage":util.errorMessage,
     },
 
     "clearLocalStorageAndLogout":authentication.clearLocalStorageAndLogout,
