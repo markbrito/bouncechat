@@ -1,0 +1,137 @@
+<html><head id="headMain">
+
+<style id="STYLEMain" type="text/css">html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, 
+caption, tbody, tfoot, thead, tr, th, td 
+       ,figure           {margin: 0;padding: 0;border: 0;outline: 0;
+                  font-size: 100%;vertical-align: baseline;
+                  background: transparent;
+    -webkit-margin-before: em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+body              {line-height: 1;}
+ol, ul            {list-style: none;}
+blockquote, q     {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: ''; content: none;}
+:focus            {outline: 0;}
+ins               {text-decoration: none;}
+del               {text-decoration: line-through;}
+table             {border-collapse: collapse;border-spacing: 0;}
+@font-face {
+    font-family: 'firasansregular';
+    src: url('../../html/home/firasans-regular-webfont.eot');
+    src: url('../../html/home/firasans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../html/home/firasans-regular-webfont.woff2') format('woff2'),
+         url('../../html/home/firasans-regular-webfont.woff') format('woff'),
+         url('../../html/home/firasans-regular-webfont.ttf') format('truetype'),
+         url('../../html/home/firasans-regular-webfont.svg#fira_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ANAVChat{ font-size: 2.2vw; padding: 8px 15px 8px 15px; margin-top: +5px; display: table-cell; text-align: center;}
+.blackForeground{color:black !important;}
+.underline{text-decoration:underline;}
+*{
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.hidden{display:none;}
+.MainContainer{ position: absolute; left: 0%; top: 0%; width: 101%; height: auto; background-color: white; color: black; font-size: 10vw; overflow: auto; font-family: firasansregular, sans-serif, serif, Times;}
+.TDSlider{ width: 20%; text-align: center; display: table-cell;}
+.IMGSlider{ width: 13%; margin-top: 14.08%;}
+.DIVSliderLabel{ padding-top: 24%; color: #b9b9bc; padding-bottom: 10px;}
+.SliderRegion{ position: absolute; left: 9.25%; top: 13.4%; width: 81.35%; height: 4.5%; opacity: 0; margin-top: -2.2%; z-index: 10000;}
+</style>
+</head>
+<body>
+<div id="formIFrameMain">
+
+		<section id="SECTIONMainLoading" style=" position: fixed; left: 0%; top: 0%; width: 100%; height: 100%; background-color: white; color: black; z-index: 100000; display: none;">
+			<img id="IMGMainLoading" src="../../image/loader.gif" style=" position: absolute; left: 50%; top: 50%; margin-left: -18px; margin-top: -18px;">
+			<button id="BUTTONHideLoading" onclick="document.getElementById('DIVMainLoading').style.display='none';return false;" style=" position: absolute; top: 0%; right: 0%;">Hide</button></section>
+		<section id="SECTIONMainContainer" class="MainContainer">
+			<img id="IMGDesignAllChats" src="../../image/AllChatsDesign.png" style=" width: 100%;">
+			<img id="IMGAddChat" src="../../image/AddChat.png" style=" position: absolute; left: 1.85%; top: 1.25%; width: 12vw; height: auto;">
+			<img id="IMGSearchChat" src="../../image/SearchChat.png" style=" position: absolute; top: 1.25%; right: 2%; width: 12vw; height: auto;">
+			<span id="SPANHeaderChat" style=" position: absolute; left: 15%; top: 2.5%; width: 71%; height: 4%; font-size: 5.5vw; color: orange; text-align: center; background-color: white;">
+				<span id="SPANHeaderText">All Chats</span>
+				<img id="IMGChatMenu" src="../../image/ChatHeaderMenu.png" style=" margin-top: +2px; position: absolute; margin-left: +2px; width: 6%;"></span>
+			<div id="DIVSlider">
+				<script id="SCRIPTSlider" type="text/javascript">function sliderChanged(slider,svalue){
+var v=slider.value=Math.round(svalue);
+var val='10<br/>miles';
+var labels=document.getElementById('TABLESlider').querySelectorAll('DIV');
+for(var i=0;i<labels.length;i++){labels[i].setAttribute('class','DIVSliderLabel');}
+var labelName='City';
+if(v==0){val='100<br/>yrds';labelName='Place';}else if(v==1){val='1<br/>mile';labelName='Event';}else if(v==2){val='10<br/>miles';labelName='City';}else if(v==3){val='100<br/>miles';labelName='Area';}else if(v==4){val='<b style="font-size:4.3vw;">&#8734</b><br/>';labelName='Galactic';}
+document.getElementById('DIV'+labelName+'Label').setAttribute('class','DIVSliderLabel blackForeground');
+var tlabel=document.getElementById('LABELSliderThumb');
+tlabel.innerHTML=val;
+slider.oninput();
+}
+function sliderInput(slider,svalue){
+var thumb=document.getElementById('IMGSliderThumb');
+var tlabel=document.getElementById('LABELSliderThumb');
+tlabel.style.left=thumb.style.left=(((100-9*2)/5)*svalue)-4.5+6.4*svalue+'%';
+}</script>
+				<table id="TABLESlider" class="SliderRegion" style=" left: 4%; width: 92.18%; font-family: firasansregular, sans-serif, serif, Times; background-color: white; font-size: 2.11vw; display: table; opacity: 1 !important;">
+					<tbody><tr id="TRSliderCircles" style=" display: table-row;">
+						<td id="TDPlace" class="TDSlider">
+							<img id="IMGPlaceCircle" src="../../image/circlegrey.png" class="IMGSlider">
+							<div id="DIVPlaceLabel" class="DIVSliderLabel">place</div></td>
+						<td id="TDEvent" class="TDSlider">
+							<img id="IMGEventCircle" src="../../image/circlegrey.png" class="IMGSlider">
+							<div id="DIVEventLabel" class="DIVSliderLabel">event</div></td>
+						<td id="TDCity" class="TDSlider">
+							<img id="IMGCityCircle" src="../../image/circlegrey.png" class="IMGSlider">
+							<div id="DIVCityLabel" class="DIVSliderLabel blackForeground">city</div></td>
+						<td id="TDArea" class="TDSlider">
+							<img id="IMGAreaCircle" src="../../image/circlegrey.png" class="IMGSlider">
+							<div id="DIVAreaLabel" class="DIVSliderLabel">area</div></td>
+						<td id="TDGalatic" class="TDSlider">
+							<img id="IMGGalacticCircle" src="../../image/circlegrey.png" class="IMGSlider">
+							<div id="DIVGalacticLabel" class="DIVSliderLabel">galatic</div></td></tr></tbody></table>
+				<img id="IMGSliderLine" src="../../image/squaregrey.png" class="SliderRegion" style=" height: 0.25%; margin-top: 1.4%; display: block !important; opacity: 1; margin-left: +3%; width: 75%;">
+				<div id="DIVSliderThumb" class="SliderRegion" style=" position: absolute; display: block !important; opacity: 1 !important;">
+					<img id="IMGSliderThumb" src="../../image/circlegrey.png" style=" position: absolute; margin-left: 4.11%; left: 41.1%; width: 8vw;">
+					<label id="LABELSliderThumb" style=" height: 100%; position: absolute; margin-left: 4.35%; left: 41.1%; font-size: 2vw; padding-top: 1.23vh; text-align: center; width: 7.5vw; vertical-align: middle; display: inline; margin-top: 1vh; pointer-events: none;">10<br>miles</label></div>
+				<input id="INPUTSlider" max="4" min="0" step=".1" value="2" class="SliderRegion" oninput="eval(document.getElementById('SCRIPTSlider').innerHTML);sliderInput(this,this.value);" onchange="eval(document.getElementById('SCRIPTSlider').innerHTML);sliderChanged(this,this.value);" type="range"></div>
+			<figure id="FIGUREMemberImage" style=" position: absolute; left: 1.6625277064763446%; top: 19.971242774566476%; width: 14.137351265705664%; height: 13.5vw;">
+				<img id="IMGMemberPicture" src="../../image/appicon.png" style=" width: 100%; height: 100%; position: absolute; left: 0%; top: 0%;"></figure>
+			<nav id="NAVChats" class="ANAVChat" onclick="
+var a=this.querySelectorAll('A');
+for(var i=0;i<a.length;i++){a[i].setAttribute('class','ANAVChat');}if(event.currentTarget!=event.srcElement){event.srcElement.setAttribute('class','ANAVChat underline');}" style=" position: absolute; left: 1.2565277367763419%; top: 8.097283774124374%; width: 92.97076525424748%; height: 4%; background-color: white; display: table;">
+				<a id="AChatsNearby" class="ANAVChat underline" style=" padding: 8px 15px 8px 15px; margin-top: +5px; display: table-cell; text-align: center;">Nearby</a>
+				<a id="AChat1" class="ANAVChat hidden">Chat 1</a>
+				<a id="AChat2" class="ANAVChat hidden">Chat 2</a>
+				<a id="AChat3" class="ANAVChat hidden">Chat 3</a>
+				<a id="AChat4" class="ANAVChat hidden">Chat 4</a>
+				<a id="AChat5" class="ANAVChat hidden">Chat 5</a>
+				<a id="AChatPopular" class="ANAVChat">Popular</a></nav>
+			<section id="SECTIONMemberInfo" style=" position: absolute; left: 16%; top: 20.07979242979243%; width: 42.75517633692123%; display: table; margin-left: 0.5vw; background-color: white;">
+				<div id="DIVMemberInfoTop" style=" position: relative; left: 0%; top: 0%; width: 100%; height: 50%; margin-top: 4px; display: table; background-color: white;">
+					<label id="LABELMemberName" style=" left: 0%; width: 50%; display: table-cell; font-size: 3.3vw; font-weight: bold; padding-left: 4px; vertical-align: middle;">MemberName</label>
+					<div id="DIVFollowMember" style=" vertical-align: middle; display: table-cell;">
+						<button id="BUTTONFollow" style=" display: table-cell; font-size: 2.2vw; margin-left: 10px; padding: 4px 15px 4px 15px; background-color: #7c848d; color: white; border-radius: 8px;">follow</button></div></div>
+				<div id="DIVMemberInfoBottom" style=" position: relative; left: 0%; height: 50%; margin-bottom: 6px; margin-top: 3.1vh; display: table; color: rgb(82, 86, 89); background-color: white;">
+					<label id="LABELDistanceInfo" style=" font-size: 2.8vw; margin-left: 6px; display: table-cell; position: relative; left: 1vw; top: -6vh; height: auto; vertical-align: middle;">##.#</label>
+					<img id="IMGMemberVisible" src="../../image/bouncechat_visible.png" style=" display: table-cell; position: relative; top: -2.7vh; left: 2vw; vertical-align: middle; width: 6vw; padding-bottom: 3.25vw;">
+					<label id="LABELMi" style=" font-size: 2.8vw; margin-left: 6px; display: table-cell; position: relative; left: 2.5vw; top: -6vh; height: auto; vertical-align: middle;">mi</label>
+					<label id="LABELDistanceTime" style=" font-size: 2.8vw; margin-left: 6px; display: table-cell; position: relative; left: 5vw; top: -6vh; height: auto; vertical-align: middle;">##m ago</label></div></section>
+			<section id="SECTIONJoinChat" style=" position: absolute; left: 76.84121053614795%; top: 20.28492871690428%; width: 19.39678684849617%; height: 6.177902240325865%; display: block; margin-top: +1vh; background-color: white;">
+				<label id="LABELJoinChatName" style=" font-size: 3vw; margin-left: 1vw; color: #f47215; font-weight: bold; display: inline; float: right;">porsche 911</label>
+				<button id="BUTTONJoinChat" style=" background-color: #7c848d; color: white; padding: 4px 18px 4px 18px; font-size: 3.3vw; margin-left: 0.5vw; margin-top: 3%; border-radius: 8px; float: right;">join chat</button></section>
+			<label id="LABELBounceHeader" style=" position: absolute; left: 1.7176933273344268%; top: 29.658917418459402%; width: 94.16704905037498%; height: 2.784094378903539%; color: #7c848d; background-color: white; font-size: 4.5vw;">Bounce Header</label></section></div>
+
+</body></html>
