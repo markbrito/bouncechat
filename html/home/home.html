@@ -1,5 +1,4 @@
 <html><head id="headMain">
-
 <style id="STYLEMain" type="text/css" stylesheetid="STYLEMain" styleruletype="ID">html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, ul, li,fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td ,figure{margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;-webkit-margin-before: em;-webkit-margin-after: 0em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;}
 header{background-color:white;}
 body{line-height:1;background-color:white;}
@@ -19,9 +18,12 @@ tableborder-collapse: collapse;border-spacing: 0;}
          url('../../html/home/firasans-regular-webfont.woff2') format('woff2'),
          url('../../html/home/firasans-regular-webfont.woff') format('woff'),
          url('../../html/home/firasans-regular-webfont.ttf') format('truetype'),
-         url('../../html/home/firasans-regular-webfont.svg#fira_sansregular') format('svg');
+         url('../../html/home/firasans-regular-webfont.svg#fira_sansregular') format('svg'), arial;
     font-weight: normal;
     font-style: normal;
+}
+BODY{
+font-family: 'firasansregular',arial;
 }
 *{
 -webkit-user-select: none;
@@ -34,7 +36,6 @@ user-select: none;
 #DIVMainConfigWin > * { background-color: transparent !important; opacity:1;}
 #DIVImageSpacers IMG {opacity:1;}
 #DIVSlider > * { margin-top:-5.8%;}
-#ARTICLEBouncex {display:none;}
 .DIVSliderLabelLarge{font-size: 5.3vw !important;}
 .ANAVChat{ pointer-events: all; font-size: 2.2vw; padding: 8px 15px 8px 15px; margin-top: +5px; display: table-cell; text-align: center;}
 .blackForeground{color:black !important;}
@@ -66,34 +67,35 @@ user-select: none;
 #DIVAppIconLinks{ position: absolute; left: 1%; top: 2%; width: 25%; margin-top: 5px;}
 #IMGAppleApp{ height: auto; position: absolute; left: 0%; top: 0%; width: 20%;}
 #IMGAndroidApp{ position: absolute; left: 20%; top: 0%; width: 20%; height: auto;}
-#DIVTopRightMenu{ position: absolute; right: 1%; width: 5%;}
-#IMGTopRightMenu{ width: 100%; top: 0%; position: absolute; left: 0%;}
+#DIVTopRightMenu{ position: absolute; right: 1%; width: 5%; height: 6vw;}
+#IMGTopRightMenu{ width: 100%; top: 0%; position: absolute; left: 0%; height: 100%;}
 #FIGURETitle{ position: absolute; left: 50%; top: 0%; width: 42%; height: 100%; margin-left: -21%; z-index: 100000; margin-top: 0.5%;}
 #IMGMainTitle{ position: absolute; left: 0%; top: 0%; width: 100%; height: auto;}
 #DIVConfigButtons{ position: absolute; opacity: .6; left: 80vw; top: 0%;}
 #INPUTIMGMainConfig{ position: absolute; left: 0%; width: 6vw; z-index: 10000000;}
-.MainContainer{ position: absolute; left: 0%; top: 4.5vw; width: 98%; height: auto; color: black; font-size: 10vw; overflow: hidden; font-family: firasansregular, sans-serif, serif, Times; z-index: 1000000; margin-bottom: -5%;}
+.MainContainer{ position: absolute; left: 0%; top: 4.5vw; width: 98%; height: auto; color: black; font-size: 10vw; overflow: hidden; z-index: 1000000; margin-bottom: -5%;}
 #IMGMainSpacer{ visibility: hidden; height: 40.5vw;}
 #IMGBounceSpacer{ visibility: hidden; height: 120vw; display: block;}
 #IMGAddChat{ position: absolute; left: 0.25%; top: 2vw; width: 9vw; height: auto; z-index: 10008;}
 #IMGSearchChat{ position: absolute; top: 2vw; right: .25%; width: 9vw; height: auto; z-index: 10008;}
-#DIVHeaderChat{ position: absolute; left: 35.5%; top: 4.6vw; width: 71%; font-size: 5.5vw; color: orange; text-align: center; background-color: transparent; z-index: 10001; margin-left: -25%;}
+#DIVHeaderChat{ position: absolute; left: 35.5%; top: 4.6vw; width: 71%; font-size: 5.5vw; color: orange; text-align: center; background-color: transparent; z-index: 10001; margin-left: -25%; margin-top: -0.75%;}
 #SPANHeaderText{ margin-left: 6%;}
-#IMGChatMenu{ margin-top: .25vw; position: absolute; margin-left: +2px; width: 6%; display: inline;}
-#NAVChats{ position: absolute; left: 1.2565277367763419%; top: 8.5vw; width: 92.97076525424748%; margin-top: 1vw; background-color: transparent; display: table; padding: 0.01vw 0.01vw 0.01vw 0.01vw; pointer-events: none;}
+#IMGChatMenu{ margin-top: 0.5vw; position: absolute; margin-left: +2px; width: 6%; display: inline;}
+#NAVChats{ position: absolute; left: 3%; top: 8.5vw; width: 91.5vw; margin-top: 1.1vw; background-color: transparent; display: table; z-index: 1000000; padding: 0.01vw 0.01vw 0.01vw 0.01vw; pointer-events: none;}
 #AChatsNearby{ padding: 0.3vs 0.3vw 0.3vw 0.3vw ; margin-top: 1.5vw; display: table-cell; text-align: center;}
-#DIVSlider{ margin-top: 5vw; z-index: 1000999999; pointer-events: none; background-color: transparent;}
-#TABLESlider{ left: 4%; width: 92.18%; font-family: firasansregular, sans-serif, serif, Times; background-color: transparent; font-size: 2.11vw; display: table; opacity: 1 !important; top: 22vw;}
+#DIVSlider{ margin-top: 6vw; z-index: 1000999999; pointer-events: none; background-color: transparent;}
+#TABLESlider{ left: 2.10vw; width: 92.2vw; background-color: transparent; font-size: 2.11vw; display: table; opacity: 1 !important; top: 23vw;}
 #TRSliderCircles{ display: table-row;}
 .TDSlider{ width: 20%; text-align: center; display: table-cell;}
 .IMGSlider{ width: 13%; margin-top: 14.08%;}
 .DIVSliderLabel{ padding-top: 24%; color: #b9b9bc; padding-bottom: 10px;}
-#IMGSliderLine{ height: 1vw; margin-top: -2.2vw; display: block !important; opacity: 1; margin-left: +3%; width: 75%; top: 22vw;}
-#DIVSliderThumb{ position: absolute; display: block !important; opacity: 1 !important; top: 22vw; pointer-events: none;}
-#IMGSliderThumb{ position: absolute; margin-left: 4.11%; left: 41.1%; width: 8vw;}
-#LABELSliderThumb{ height: 100%; position: absolute; margin-left: 4.2vw; left: 39.25%; font-size: 2.5vw; padding-top: 1.3vw; text-align: center; width: 7.5vw; vertical-align: middle; display: inline; margin-top: -.45vh; pointer-events: none; color: white;}
-.SliderRegion{ position: absolute; left: 9.25vw; top: 22vw; width: 80vw; height: 8.1vw; opacity: 0; z-index: 999999999999; pointer-events: all;}
-#SECTIONBounces{ position: absolute; left: 0%; top: 29.5vw; width: 100%; z-index: 1000002;}
+#IMGSliderLine{ height: 0.8vw; margin-top: -2vw; display: block !important; opacity: 1; margin-left: 2.75vw; width: 74.75vw; top: 22.9vw;}
+#DIVSliderThumb{ position: absolute; display: block !important; opacity: 1 !important; top: 23vw; pointer-events: none;}
+#IMGSliderThumbHidden{ position: absolute; opacity: 0; margin-left: 4.11%; left: 41.1%; width: 8vw;}
+#LABELSliderThumb{ height: 100%; position: absolute; opacity: 0; margin-left: 4.3vw; left: 39.25%; font-size: 2.5vw; padding-top: 1.3vw; text-align: center; width: 7.5vw; vertical-align: middle; display: inline; margin-top: -.45vh; pointer-events: none; color: white;}
+.LABELSliderThumb{ background-color: #7c848d; color: white; padding: 0.25vw 0.25vw 0.25vw 0.25vw; font-size: 3vw; margin-left: 2.4vw; margin-top: -1vw; border-radius: 9vw; float: right; display: inline; clear: both ; position: absolute; left: 33vw; width: 10vw; text-align: center; vertical-align: middle; height: 10vw; pointer-events: none;}
+.SliderRegion{ position: absolute; left: 8vw; top: 23vw; width: 80vw; height: 8.1vw; opacity: 0; z-index: 999999999999; pointer-events: all;}
+#SECTIONBounces{ position: absolute; left: 0%; top: 29.85vw; width: 100%; z-index: 1000002;}
 .ARTICLEBounce{ position: relative; left: 0%; top: 0%; width: 100%; height: 123vw; border-bottom: 2px groove grey; margin-top: 1vw; margin-left: 0.5vw;}
 .FIGUREChatMemberImage{ position: absolute; left: 2%; top: 0.5%; width: 14.137351265705664%; height: 13.5vw;}
 .IMGChatMemberPicture{ width: 100%; height: 100%; position: absolute; left: 0%; top: 0%;}
@@ -106,31 +108,31 @@ user-select: none;
 .LABELDistanceInfo{ font-size: 2.8vw; margin-left: 6px; display: table-cell; left: 1.85vw; top: -6vh; height: auto; vertical-align: middle;}
 .IMGMember{ display: table-cell; position: relative; left: 2vw; vertical-align: top; width: 6vw;}
 .LABELMi{ font-size: 2.8vw; display: table-cell; top: -6vh; height: auto; vertical-align: middle; padding-left: 3.8vw;}
-.LABELDistanceTime{ font-size: 2.8vw; margin-left: 6px; display: table-cell; position: relative; left: 3.5px; height: auto; vertical-align: middle;}
+.LABELDistanceTime{ font-size: 2.8vw; display: table-cell; position: relative; left: 3.5px; height: auto; vertical-align: middle; padding-left: 1.75vw;}
 .SECTIONJoinChat{ position: absolute; left: 57%; top: 0.5%; height: 7.145321931589535%; display: block; margin-top: +1vh; background-color: white; right: 4.5% ; z-index: 998;}
-.LABELJoinChatName{ font-size: 3vw; margin-left: 1vw; color: #f47215; font-weight: bold; float: right;}
+.LABELJoinChatName{ font-size: 3vw; margin-left: 1vw; color: #f47215; font-weight: bold; float: right; padding-right: 0.5vw;}
 .BUTTONJoinChat{ background-color: #7c848d; color: white; padding: 4px 18px 4px 18px; font-size: 3.3vw; margin-left: 0.5vw; margin-top: 3%; border-radius: 8px; float: right; clear: both ;}
 .HEADERBounceHeader{ position: absolute; left: 1.7176933273344268%; top: 13%; width: 94.16704905037498%; height: 2.784094378903539%; color: #7c848d; background-color: white; font-size: 4.5vw; z-index: 1000;}
 .IMGBounceImage{ position: absolute; left: 1%; top: 20%; width: 97%; height: 67%;}
 .DIVHeartListAndOptions{ position: absolute; left: 0%; top: 87.8%; width: 100%; height: 10%;}
-.ImageHeartList{ position: absolute; left: 4%; margin-top: 0.75%; height: 5.5vw;}
+.ImageHeartList{ position: absolute; left: 4%; margin-top: 0.5%; height: 5.5vw; z-index: 1000;}
 .ULHeartList{ position: absolute; left: 11%; margin-top: 1.65%; width: 87.5%; height: 4vw; font-size: 3vw; color: grey; overflow: hidden;}
 .LIHeartMember{ display: inline ;}
-.IMGLastsTimeEternity{ position: absolute; left: 3.3%; top: 93.5%; height: 4.8%; display: none;}
-.IMGLastsTime{ position: absolute; left: 3.3%; top: 93.5%; height: 4.8%;}
-.LABELLastsTimeLabel{ left: 11%; width: 376px; height: 2%; position: absolute; color: grey; font-size: 2.3vw; margin-top: +2.6%; top: 93%;}
-.IMGHeartLikeImage{ position: absolute; left: 64%; top: 93%; width: 6.4%; visibility: hidden; pointer-events: none;}
-.IMGHeartNoLikes{ position: absolute; left: 64%; top: 93%; width: 6.4%; pointer-events: pointer;}
+.IMGLastsTimeEternity{ position: absolute; left: 2.4%; top: 92%; width: 9.5%; z-index: 10;}
+.IMGLastsTime{ position: absolute; left: 2.4%; top: 92%; width: 9.5%; z-index: 10;}
+.LABELLastsTimeLabel{ left: 11.5%; width: 376px; height: 2%; position: absolute; color: grey; font-size: 2.3vw; margin-top: +2.6%; top: 93%; z-index: 1000;}
+.IMGHeartLikeImage{ position: absolute; left: 64%; top: 93%; width: 6.4%; visibility: hidden; pointer-events: none; z-index: 1000;}
+.IMGHeartNoLikes{ position: absolute; left: 64%; top: 93%; width: 6.4%; pointer-events: pointer; z-index: 1000;}
 .IMGComments{ position: absolute; left: 72.69392868634107%; top: 93.1%; width: 6.9%;}
 .IMGUpload{ position: absolute; left: 81%; top: 92.5%; width: 7.4%;}
-.IMGSubMenuIcon{ position: absolute; left: 89%; top: 92.26%; width: 8.3%;}
+.IMGSubMenuIcon{ position: absolute; left: 88.5%; top: 92.4%; width: 8.3%;}
 #IMGArticleSpacer{ visibility: hidden; height: 121vw; display: block;}
 #FOOTERMain{ position: fixed; left: 0%; bottom: 0%; right: 0%; background-color: white; z-index: 1000009; height: 8vw; border-top: 2px outset grey;}
-.DIVMemberMessageCount{ position: absolute; left: 9.5%; width: auto; height: auto; margin-left: -1.75%; margin-top: 1%; background-color: red; color: white; font-size: 2vw; list-style: -1%;}
+.DIVMemberMessageCount{ position: absolute; left: 9.5%; width: auto; height: auto; margin-left: -2.75%; margin-top: 0.25%; background-color: red; color: white; font-size: 2vw; list-style: -1%;}
 .INPUTBounceText{ position: absolute; left: 14.5%; top: 12%; width: 71%; font-size: 4.1vw; text-align: left;}
 #IMGCameraIcon{ position: absolute; left: 80%; top: 27%; width: 4vw;}
-.IMGFooterMap{ right: 2%; position: absolute; margin-right: 1%; top: 0%; margin-top: 1%; width:  ; height: 98%;}
-#IMGMemberImage{ height: 98%; margin-left: 1%; margin-top: 1%; top: 0%;}
+.IMGFooterMap{ right: 2%; position: absolute; margin-right: 1%; top: 0%; width:  ; height: 85%;}
+#IMGMemberImage{ height: 85%; margin-left: 1%; top: 0%;}
 </style>
 </head>
 <body onload="init();">
@@ -312,8 +314,8 @@ var largeFont=false;
 if(v==0){val='100<br/>yrds';labelName='Place';}else if(v==1){val='1<br/>mile';labelName='Event';}else if(v==2){val='10<br/>miles';labelName='City';}else if(v==3){val='100<br/>miles';labelName='Area';}else if(v==4){val='<b>&#8734';labelName='Galactic';largeFont=true;}
 var el=document.getElementById('DIV'+labelName+'Label');
 el.setAttribute('class','DIVSliderLabel blackForeground');
-document.getElementById('LABELSliderThumb').setAttribute('class',(largeFont?' DIVSliderLabelLarge':''));
-var tlabel=document.getElementById('LABELSliderThumb');
+document.getElementById('IMGSliderThumb').setAttribute('class',(largeFont? 'LABELSliderThumb DIVSliderLabelLarge':'LABELSliderThumb'));
+var tlabel=document.getElementById('IMGSliderThumb');
 tlabel.innerHTML=val;
 slider.oninput();
 }
@@ -321,8 +323,7 @@ function sliderInput(slider,svalue){
 var thumb=document.getElementById('IMGSliderThumb');
 var tlabel=document.getElementById('LABELSliderThumb');
 tlabel.style.left=thumb.style.left=(((100-9*2)/5)*svalue)-4.5+6.4*svalue+'%';
-}
-</script>
+}</script>
 				<table id="TABLESlider" class="SliderRegion">
 					<tbody><tr id="TRSliderCircles">
 						<td id="TDPlace" class="TDSlider">
@@ -342,8 +343,9 @@ tlabel.style.left=thumb.style.left=(((100-9*2)/5)*svalue)-4.5+6.4*svalue+'%';
 							<div id="DIVGalacticLabel" class="DIVSliderLabel" stylesheetid="STYLEMain" styleruletype="ID">galatic</div></td></tr></tbody></table>
 				<img id="IMGSliderLine" src="../../image/squaregrey.png" class="SliderRegion">
 				<div id="DIVSliderThumb" class="SliderRegion">
-					<img id="IMGSliderThumb" src="../../image/circlegrey.png" onload="document.getElementById('LABELSliderThumb').style.marginLeft='6.3%'">
-					<label id="LABELSliderThumb">10<br>miles</label></div>
+					<img id="IMGSliderThumbHidden" src="../../image/circlegrey.png" onload="document.getElementById('LABELSliderThumb').style.marginLeft='6.3%'">
+					<label id="LABELSliderThumb" style="margin-left: 6.3%;">10<br>miles</label>
+					<button id="IMGSliderThumb" class="LABELSliderThumb">10<br>miles</button></div>
 				<input id="INPUTSlider" type="range" max="4" min="0" step=".1" value="2" class="SliderRegion" oninput="document.getElementById('LABELSliderThumb').style.marginLeft='4.3%';eval(document.getElementById('SCRIPTSlider').innerText);sliderInput(this,this.value);" onchange="eval(document.getElementById('SCRIPTSlider').innerText);sliderChanged(this,this.value);"></div>
 			<section id="SECTIONBounces">
 				<article id="ARTICLEBounce" class="ARTICLEBounce" bind="try{ var article=document.getElementById('ARTICLEBounce'); if(document.iteratorFORMBounceSearchRepeatAndBind==-1){var articlehtml=article.outerHTML;document.getElementById('SECTIONBounces').innerHTML=articlehtml;}if(document.itemFORMBounceSearchRepeatAndBind!=null &amp;&amp; document.itemFORMBounceSearchRepeatAndBind!=undefined &amp;&amp; document.iteratorFORMBounceSearchRepeatAndBind>-1 &amp;&amp; document.iteratorFORMBounceSearchRepeatAndBind< document.arrayFORMBounceSearchRepeatAndBind.length){ eval(unescape('document.getElementById(\'SECTIONBounces\').innerHTML += article.outerHTML.replace(/(id[= ]+[^a-zA-Z0-9 =][a-zA-Z0-9]+)/g,\'$1\' + document.itemFORMBounceSearchRepeatAndBind.bounceId)'));}if(document.iteratorFORMBounceSearchRepeatAndBind==(document.arrayFORMBounceSearchRepeatAndBind.length)){document.getElementById('ARTICLEBounce').setAttribute('style','display:none !important;'); document.getElementById( 'IMGBounceSpacer').setAttribute('style','height:'+document.arrayFORMBounceSearchRepeatAndBind.length*123+'vw;');} }catch(ex){alert(ex.message+'\n'+ex.stack);}" repeat="FORMBounceSearchRepeatAndBind">
@@ -381,7 +383,7 @@ tlabel.style.left=thumb.style.left=(((100-9*2)/5)*svalue)-4.5+6.4*svalue+'%';
 					<img id="IMGArticleSpacer" src="../../image/MainSpacer.png"></article></section></section>
 		<footer id="FOOTERMain">
 			<div id="DIVMemberMessageCount" contenteditable="true" dropzone="text/html video/mp4 video/webm video/ogg image/png image/gif image/jpg" class="DIVMemberMessageCount">##</div>
-			<input id="INPUTBounceText" type="text" value="Bounce what you love!" class="INPUTBounceText">
+			<input id="INPUTBounceText" type="text" value="Bounce what you love!" class="INPUTBounceText" onfocus="if(this.value=='Bounce what you love!'){this.value='';}">
 			<img id="IMGCameraIcon" src="../../image/cameraicon.png">
 			<img id="IMGFooterMap" src="../../image/map.png" class="IMGFooterMap">
 			<img id="IMGMemberImage" src="../../image/ic_action_person.png"></footer></div>
