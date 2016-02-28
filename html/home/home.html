@@ -1,5 +1,6 @@
 <html><head id="headMain">
-<style id="STYLEMain" type="text/css" stylesheetid="STYLEMain" styleruletype="ID">html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, ul, li,fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td ,figure{margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;-webkit-margin-before: em;-webkit-margin-after: 0em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;}
+
+<style id="STYLEMain" type="text/css" stylesheetid="STYLEMain" styleruletype="ID">html, body, div, span, applet, object, iframe, header, h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,section, small, strike, strong, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, ul, li,fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td ,figure{margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;-webkit-margin-before: em;-webkit-margin-after: 0em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;}
 header{background-color:white;}
 body{line-height:1;background-color:white;}
 ol, ul{list-style: none;}
@@ -76,12 +77,12 @@ user-select: none;
 .MainContainer{ position: absolute; left: 0%; top: 4.5vw; width: 98%; height: auto; color: black; font-size: 10vw; overflow: hidden; z-index: 1000000; margin-bottom: -5%;}
 #IMGMainSpacer{ visibility: hidden; height: 40.5vw;}
 #IMGBounceSpacer{ visibility: hidden; height: 120vw; display: block;}
-#IMGAddChat{ position: absolute; left: 0.25%; top: 2vw; width: 9vw; height: auto; z-index: 10008;}
+#IMGAddChat{ position: absolute; left: 0.25%; top: 1.8vw; width: 9vw; height: auto; z-index: 10008;}
 #IMGSearchChat{ position: absolute; top: 2vw; right: .25%; width: 9vw; height: auto; z-index: 10008;}
 #DIVHeaderChat{ position: absolute; left: 35.5%; top: 4.6vw; width: 71%; font-size: 5.5vw; color: orange; text-align: center; background-color: transparent; z-index: 10001; margin-left: -25%; margin-top: -0.75%;}
 #SPANHeaderText{ margin-left: 6%;}
 #IMGChatMenu{ margin-top: 0.5vw; position: absolute; margin-left: +2px; width: 6%; display: inline;}
-#NAVChats{ position: absolute; left: 3%; top: 8.5vw; width: 91.5vw; margin-top: 1.1vw; background-color: transparent; display: table; z-index: 1000000; padding: 0.01vw 0.01vw 0.01vw 0.01vw; pointer-events: none;}
+#NAVChats{ position: absolute; left: 2.8vw; top: 8.5vw; width: 91.5vw; margin-top: 1.45vw; background-color: transparent; display: table; z-index: 1000000; padding: 0.01vw 0.01vw 0.01vw 0.01vw; pointer-events: none;}
 #AChatsNearby{ padding: 0.3vs 0.3vw 0.3vw 0.3vw ; margin-top: 1.5vw; display: table-cell; text-align: center;}
 #DIVSlider{ margin-top: 6vw; z-index: 1000999999; pointer-events: none; background-color: transparent;}
 #TABLESlider{ left: 2.10vw; width: 92.2vw; background-color: transparent; font-size: 2.11vw; display: table; opacity: 1 !important; top: 23vw;}
@@ -131,8 +132,8 @@ user-select: none;
 .DIVMemberMessageCount{ position: absolute; left: 9.5%; width: auto; height: auto; margin-left: -2.75%; margin-top: 0.25%; background-color: red; color: white; font-size: 2vw; list-style: -1%;}
 .INPUTBounceText{ position: absolute; left: 14.5%; top: 12%; width: 71%; font-size: 4.1vw; text-align: left;}
 #IMGCameraIcon{ position: absolute; left: 80%; top: 27%; width: 4vw;}
-.IMGFooterMap{ right: 2%; position: absolute; margin-right: 1%; top: 0%; width:  ; height: 85%;}
-#IMGMemberImage{ height: 85%; margin-left: 1%; top: 0%;}
+.IMGFooterMap{ right: 2%; position: absolute; margin-right: 1%; top: 0%; margin-top: 0.25; width:  ; height: 85%;}
+#IMGMemberImage{ height: 90%; margin-left: 1%; margin-top: 0.25%; top: 0%;}
 </style>
 </head>
 <body onload="init();">
@@ -344,7 +345,7 @@ tlabel.style.left=thumb.style.left=(((100-9*2)/5)*svalue)-4.5+6.4*svalue+'%';
 				<img id="IMGSliderLine" src="../../image/squaregrey.png" class="SliderRegion">
 				<div id="DIVSliderThumb" class="SliderRegion">
 					<img id="IMGSliderThumbHidden" src="../../image/circlegrey.png" onload="document.getElementById('LABELSliderThumb').style.marginLeft='6.3%'">
-					<label id="LABELSliderThumb" style="margin-left: 6.3%;">10<br>miles</label>
+					<label id="LABELSliderThumb">10<br>miles</label>
 					<button id="IMGSliderThumb" class="LABELSliderThumb">10<br>miles</button></div>
 				<input id="INPUTSlider" type="range" max="4" min="0" step=".1" value="2" class="SliderRegion" oninput="document.getElementById('LABELSliderThumb').style.marginLeft='4.3%';eval(document.getElementById('SCRIPTSlider').innerText);sliderInput(this,this.value);" onchange="eval(document.getElementById('SCRIPTSlider').innerText);sliderChanged(this,this.value);"></div>
 			<section id="SECTIONBounces">
@@ -385,7 +386,7 @@ tlabel.style.left=thumb.style.left=(((100-9*2)/5)*svalue)-4.5+6.4*svalue+'%';
 			<div id="DIVMemberMessageCount" contenteditable="true" dropzone="text/html video/mp4 video/webm video/ogg image/png image/gif image/jpg" class="DIVMemberMessageCount">##</div>
 			<input id="INPUTBounceText" type="text" value="Bounce what you love!" class="INPUTBounceText" onfocus="if(this.value=='Bounce what you love!'){this.value='';}">
 			<img id="IMGCameraIcon" src="../../image/cameraicon.png">
-			<img id="IMGFooterMap" src="../../image/map.png" class="IMGFooterMap">
+			<img id="IMGFooterMap" src="../../image/map.png" class="IMGFooterMap" onclick="OnClick Event">
 			<img id="IMGMemberImage" src="../../image/ic_action_person.png"></footer></div>
 
 </body></html>
