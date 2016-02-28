@@ -2,7 +2,7 @@ jsonHash[divHTML.id].c=[
     {
         "e": "STYLE",
         "id": "STYLEMain",
-        "innerHTML": "html%2C%20body%2C%20div%2C%20span%2C%20applet%2C%20object%2C%20iframe%2C%20header%2C%20h1%2C%20h2%2C%20h3%2C%20h4%2C%20h5%2C%20h6%2C%20p%2C%20blockquote%2C%20pre%2Ca%2C%20abbr%2C%20acronym%2C%20address%2C%20big%2C%20cite%2C%20code%2Cdel%2C%20dfn%2C%20em%2C%20font%2C%20img%2C%20ins%2C%20kbd%2C%20q%2C%20s%2C%20samp%2Csection%2C%20small%2C%20strike%2C%20strong%2C%20sub%2C%20sup%2C%20tt%2C%20var%2Cb%2C%20u%2C%20i%2C%20center%2C%20dl%2C%20dt%2C%20dd%2C%20ol%2C%20ul%2C%20li%2Cfieldset%2C%20form%2C%20label%2C%20legend%2C%20table%2C%20caption%2C%20tbody%2C%20tfoot%2C%20thead%2C%20tr%2C%20th%2C%20td%20%2Cfigure%7Bmargin%3A%200%3Bpadding%3A%200%3Bborder%3A%200%3Boutline%3A%200%3Bfont-size%3A%20100%25%3Bvertical-align%3A%20baseline%3Bbackground%3A%20transparent%3B-webkit-margin-before%3A%20em%3B-webkit-margin-after%3A%200em%3B-webkit-margin-start%3A%200px%3B-webkit-margin-end%3A%200px%3B%7D%0Aheader%7Bbackground-color%3Awhite%3B%7D%0Abody%7Bline-height%3A1%3Bbackground-color%3Awhite%3B%7D%0Aol%2C%20ul%7Blist-style%3A%20none%3B%7D%0ADIVSliderLabelLarge%7Bfont-size%3A%205.3vw%3B%7D%0Ablockquote%2C%20q%7Bquotes%3A%20none%3B%7D%0Ablockquote%3Abefore%2C%20blockquote%3Aafter%2C%0Aq%3Abefore%2C%20q%3Aafter%20%7Bcontent%3A%20%27%27%3B%20content%3A%20none%3B%7D%0A%3Afocus%7Boutline%3A%200%3B%7D%0Ains%7Btext-decoration%3A%20none%3B%7D%0Adel%7Btext-decoration%3A%20line-through%3B%7D%0Atableborder-collapse%3A%20collapse%3Bborder-spacing%3A%200%3B%7D%0A@font-face%20%7B%0A%20%20%20%20font-family%3A%20%27firasansregular%27%3B%0A%20%20%20%20src%3A%20url%28%27../../html/home/firasans-regular-webfont.eot%27%29%3B%0A%20%20%20%20src%3A%20url%28%27../../html/home/firasans-regular-webfont.eot%3F%23iefix%27%29%20format%28%27embedded-opentype%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.woff2%27%29%20format%28%27woff2%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.woff%27%29%20format%28%27woff%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.ttf%27%29%20format%28%27truetype%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.svg%23fira_sansregular%27%29%20format%28%27svg%27%29%2C%20arial%3B%0A%20%20%20%20font-weight%3A%20normal%3B%0A%20%20%20%20font-style%3A%20normal%3B%0A%7D%0ABODY%7B%0Afont-family%3A%20%27firasansregular%27%2Carial%3B%0A%7D%0A*%7B%0A-webkit-user-select%3A%20none%3B%0A-moz-user-select%3A%20none%3B%0A-ms-user-select%3A%20none%3B%0Auser-select%3A%20none%3B%0A%7D%0A.mainConfigFormRowElementLabel%20%7Btext-align%3Aright%3Bdisplay%3Ainline%3B%20width%3A20%25%3B%7D%0A.mainConfigFormRowElement%20%7Btext-align%3Aleft%3Bdisplay%3Ainline%3B%20width%3A20%25%3B%7D%0A%23DIVMainConfigWin%20%3E%20*%20%7B%20background-color%3A%20transparent%20%21important%3B%20opacity%3A1%3B%7D%0A%23DIVImageSpacers%20IMG%20%7Bopacity%3A1%3B%7D%0A%23DIVSlider%20%3E%20*%20%7B%20margin-top%3A-5.8%25%3B%7D%0A.DIVSliderLabelLarge%7Bfont-size%3A%205.3vw%20%21important%3B%7D%0A.ANAVChat%7B%20pointer-events%3A%20all%3B%20font-size%3A%202.2vw%3B%20padding%3A%208px%2015px%208px%2015px%3B%20margin-top%3A%20+5px%3B%20display%3A%20table-cell%3B%20text-align%3A%20center%3B%7D%0A.blackForeground%7Bcolor%3Ablack%20%21important%3B%7D%0A.underline%7Btext-decoration%3Aunderline%3B%7D%0A.opaque%7Bopacity%3A1%3B%7D%0A.hidden%7Bdisplay%3Anone%3B%7D",
+        "innerHTML": "html%2C%20body%2C%20div%2C%20span%2C%20applet%2C%20object%2C%20iframe%2Ch1%2C%20h2%2C%20h3%2C%20h4%2C%20h5%2C%20h6%2C%20p%2C%20blockquote%2C%20pre%2Ca%2C%20abbr%2C%20acronym%2C%20address%2C%20big%2C%20cite%2C%20code%2Cdel%2C%20dfn%2C%20em%2C%20font%2C%20img%2C%20ins%2C%20kbd%2C%20q%2C%20s%2C%20samp%2Csmall%2C%20strike%2C%20strong%2C%20sub%2C%20sup%2C%20tt%2C%20var%2Cb%2C%20u%2C%20i%2C%20center%2C%20dl%2C%20dt%2C%20dd%2C%20ol%2C%20ul%2C%20li%2Cfieldset%2C%20form%2C%20label%2C%20legend%2C%20table%2C%20caption%2C%20tbody%2C%20tfoot%2C%20thead%2C%20tr%2C%20th%2C%20td%20%2Cfigure%7Bmargin%3A%200%3Bpadding%3A%200%3Bborder%3A%200%3Boutline%3A%200%3Bfont-size%3A%20100%25%3Bvertical-align%3A%20baseline%3Bbackground%3A%20transparent%3B-webkit-margin-before%3A%20em%3B-webkit-margin-after%3A%200em%3B-webkit-margin-start%3A%200px%3B-webkit-margin-end%3A%200px%3B%7D%0Aheader%7Bbackground-color%3Awhite%3B%7D%0Abody%7Bline-height%3A1%3Bbackground-color%3Awhite%3B%7D%0Aol%2C%20ul%7Blist-style%3A%20none%3B%7D%0ADIVSliderLabelLarge%7Bfont-size%3A%205.3vw%3B%7D%0Ablockquote%2C%20q%7Bquotes%3A%20none%3B%7D%0Ablockquote%3Abefore%2C%20blockquote%3Aafter%2C%0Aq%3Abefore%2C%20q%3Aafter%20%7Bcontent%3A%20%27%27%3B%20content%3A%20none%3B%7D%0A%3Afocus%7Boutline%3A%200%3B%7D%0Ains%7Btext-decoration%3A%20none%3B%7D%0Adel%7Btext-decoration%3A%20line-through%3B%7D%0Atableborder-collapse%3A%20collapse%3Bborder-spacing%3A%200%3B%7D%0A@font-face%20%7B%0A%20%20%20%20font-family%3A%20%27firasansregular%27%3B%0A%20%20%20%20src%3A%20url%28%27../../html/home/firasans-regular-webfont.eot%27%29%3B%0A%20%20%20%20src%3A%20url%28%27../../html/home/firasans-regular-webfont.eot%3F%23iefix%27%29%20format%28%27embedded-opentype%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.woff2%27%29%20format%28%27woff2%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.woff%27%29%20format%28%27woff%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.ttf%27%29%20format%28%27truetype%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.svg%23fira_sansregular%27%29%20format%28%27svg%27%29%3B%0A%20%20%20%20font-weight%3A%20normal%3B%0A%20%20%20%20font-style%3A%20normal%3B%0A%7D%0A*%7B%0A-webkit-user-select%3A%20none%3B%0A-moz-user-select%3A%20none%3B%0A-ms-user-select%3A%20none%3B%0Auser-select%3A%20none%3B%0A%7D%0A.mainConfigFormRowElementLabel%20%7Btext-align%3Aright%3Bdisplay%3Ainline%3B%20width%3A20%25%3B%7D%0A.mainConfigFormRowElement%20%7Btext-align%3Aleft%3Bdisplay%3Ainline%3B%20width%3A20%25%3B%7D%0A%23DIVMainConfigWin%20%3E%20*%20%7B%20background-color%3A%20transparent%20%21important%3B%20opacity%3A1%3B%7D%0A%23DIVImageSpacers%20IMG%20%7Bopacity%3A1%3B%7D%0A%23DIVSlider%20%3E%20*%20%7B%20margin-top%3A-5.8%25%3B%7D%0A%23ARTICLEBouncex%20%7Bdisplay%3Anone%3B%7D%0A.DIVSliderLabelLarge%7Bfont-size%3A%205.3vw%20%21important%3B%7D%0A.ANAVChat%7B%20pointer-events%3A%20all%3B%20font-size%3A%202.2vw%3B%20padding%3A%208px%2015px%208px%2015px%3B%20margin-top%3A%20+5px%3B%20display%3A%20table-cell%3B%20text-align%3A%20center%3B%7D%0A.blackForeground%7Bcolor%3Ablack%20%21important%3B%7D%0A.underline%7Btext-decoration%3Aunderline%3B%7D%0A.opaque%7Bopacity%3A1%3B%7D%0A.hidden%7Bdisplay%3Anone%3B%7D",
         "style": {
             "width": null,
             "height": null
@@ -78,7 +78,7 @@ jsonHash[divHTML.id].c=[
                                 "style": {},
                                 "stylesheetid": "STYLEMain",
                                 "styleruletype": "ID",
-                                "innerHTML": "document.loadJS%3Dfunction%28url%2Ce%2Cev%2CvarName%2Ccallback%29%7B%0Aif%28ev%21%3Dnull%20%26%26%20ev%21%3Dundefined%29%7B%0Aev.preventDefault%28%29%3B%0A%7D%0Aconsole.debug%28%27loadScript%28%27+url+%27%29%20Loading%27%29%3B%0Aeval%28%27document.callback%27+varName+%27%3Dcallback%3B%27%29%3B%0Avar%20js%3D%27document.xhr%27+varName+%27%3Dnew%20XMLHttpRequest%28%29%3B%20%5Cn%20document.xhr%27+varName+%22.onreadystatechange%3Dfunction%28data%2CtextStatus%2CjqXHR%29%7B%5Cn%20if%28%20document.xhr%22+varName+%22.readyState%3D%3D%3DXMLHttpRequest.DONE%29%7Bif%28document.xhr%22+varName+%22.status%3D%3D%3D200%29%7B%5Cn%20console.debug%28%5C%22loadScript%28%5C%27%22+url+%22%5C%27%29%20Loaded%5C%22%29%3B%5Cn%20eval%28%5C%27document.%22+varName+%22%3Ddocument.xhr%22+varName+%22.responseText%3B%5C%27%29%3B%5Cndocument.callback%22+varName+%22%28%29%3B%20%7D%7D%7D%3B%5Cndocument.xhr%22+varName+%22.open%28%5C%27GET%5C%27%2C%5C%27%22+url+%22%5C%27%29%3B%5Cndocument.xhr%22+varName+%22.send%28%29%3B%22%3B%0Aeval%28js%29%3B%0Areturn%20false%3B%0A%7D%0Afunction%20init%28%29%7B%0Aeval%28document.getElementById%28%27SCRIPTBounceSearch%27%29.innerHTML%29%3B%0Adocument.getElementById%28%27BUTTONBindBounceSearch%27%29.click%28%29%3B%0A%7D%0A%09%09%09%09"
+                                "innerHTML": "document.loadJS%3Dfunction%28url%2Ce%2Cev%2CvarName%2Ccallback%29%7B%0Aev.preventDefault%28%29%3B%0Aconsole.debug%28%27loadScript%28%27+url+%27%29%20Loading%27%29%3B%0Aeval%28%27document.callback%27+varName+%27%3Dcallback%3B%27%29%3B%0Avar%20js%3D%27document.xhr%27+varName+%27%3Dnew%20XMLHttpRequest%28%29%3B%20%5Cn%20document.xhr%27+varName+%22.onreadystatechange%3Dfunction%28data%2CtextStatus%2CjqXHR%29%7B%5Cn%20if%28%20document.xhr%22+varName+%22.readyState%3D%3D%3DXMLHttpRequest.DONE%29%7Bif%28document.xhr%22+varName+%22.status%3D%3D%3D200%29%7B%5Cn%20console.debug%28%5C%22loadScript%28%5C%27%22+url+%22%5C%27%29%20Loaded%5C%22%29%3B%5Cn%20eval%28%5C%27document.%22+varName+%22%3Ddocument.xhr%22+varName+%22.responseText%3B%5C%27%29%3B%5Cndocument.callback%22+varName+%22%28%29%3B%20%7D%7D%7D%3B%5Cndocument.xhr%22+varName+%22.open%28%5C%27GET%5C%27%2C%5C%27%22+url+%22%5C%27%29%3B%5Cndocument.xhr%22+varName+%22.send%28%29%3B%22%3B%0Aconsole.debug%28js%29%3B%0Aeval%28js%29%3B%0Areturn%20false%3B%0A%7D%0Afunction%20init%28%29%7B%0Aeval%28document.getElementById%28%27SCRIPTBounceSearch%27%29.innerHTML%29%3B%0Adocument.getElementById%28%27BUTTONBindBounceSearch%27%29.click%28%29%3B%0A%7D%0A%09%09%09%09"
                             },
                             {
                                 "e": "SCRIPT",
@@ -188,7 +188,7 @@ jsonHash[divHTML.id].c=[
                             {
                                 "e": "SCRIPT",
                                 "id": "SCRIPTBounceSearch",
-                                "innerHTML": "document.submitSearch%3Dfunction%28el%2Cev%2CformID%2CdocumentVariableName%2Ccallback%29%7B%0Aif%28ev%21%3Dnull%20%26%26%20ev%21%3Dundefined%29%7B%0A%20%20ev.preventDefault%28%29%3B%0A%7D%0Aeval%28document.getElementById%28%27SCRIPTExternalScripts%27%29.innerHTML%29%3B%0A%20%20eval%28document.getElementById%28%27SCRIPTJQ%27%29.innerHTML%29%3B%20%20%0A%20%20jQuery%3D%24%3B%0A%20%20document.setBounceSearchSinceToCurrentDate%28%29%3B%0A%20%20document.setBounceSearchRandomParm%28%29%3B%0A%20%20var%20uri%3DjQuery%28%27%23%27+formID%29.serialize%28%29%3B%0A%20%20var%20url%20%3D%20document.getElementById%28%27INPUTAPIURLPrefix%27%29.value%20+%20document.getElementById%28%27INPUTBounceSearchURL%27%29.value%20+%20uri%3B%0Adocument.loadJS%28url%2Cel%2Cev%2CdocumentVariableName%2Ccallback%29%3B%0A%20%20return%20false%3B%0A%7D%0A%0Adocument.setBounceSearchSinceToCurrentDate%3Dfunction%28%29%7B%0A%20%20var%20d%3Dnew%20Date%28%29%3B%0A%20%20var%20formattedDate%3Dd.getFullYear%28%29+%27-%27%20+%28%28d.getMonth%28%29+1%29%20%20%3C10%3F%220%22%3A%22%22%29+%28d.getMonth%28%29+1%29+%20%27-%27%20+%28d.getDate%28%29%3C10%3F%220%22%3A%22%22%29+d.getDate%28%29+%27%20%27%20+%28d.getHours%28%29%3C10%3F%220%22%3A%22%22%29+d.getHours%28%29+%27%3A%27+%28d.getMinutes%28%29%3C10%3F%220%22%3A%22%22%29+d.getMinutes%28%29+%27%3A%27%20+%28d.getSeconds%28%29%3C10%3F%220%22%3A%22%22%29+d.getSeconds%28%29%3B%0A%20%20document.getElementById%28%27INPUTBounceSearchSince%27%29.value%20%3D%20formattedDate%3B%0A%7D%0A%0Adocument.setBounceSearchRandomParm%3Dfunction%28%29%7B%0A%20%20document.getElementById%28%27INPUTBounceSearchRandom%27%29.value%20%3D%20Math.random%28%29%3B%0A%7D%0A%0Adocument.repeatAndBind%3Dfunction%28el%2C%20ev%2C%20formIDSearch%2C%20documentVariableName%2C%20callback%2C%20formID%2C%20rootRepeatID%29%7B%0Atry%7B%0Aif%28ev%21%3Dnull%20%26%26%20ev%21%3Dundefined%29%7B%0Aev.preventDefault%28%29%3B%0A%7D%0AsubmitSearch%28el%2C%20ev%2C%20formIDSearch%2C%20documentVariableName%2Ccallback%29%3B%0Aeval%28document.getElementById%28%27SCRIPTExternalScripts%27%29.innerHTML%29%3B%20%20eval%28document.getElementById%28%27SCRIPTJQ%27%29.innerHTML%29%3B%0A%20%20jQuery%3D%24%3B%0A%20%20var%20searchQS%3DjQuery%28%27%23%27+formID%29.serialize%28%29%3B%0A%20%20console.debug%28unescape%28unescape%28unescape%28searchQS%29%29%29%29%3B%0A%20%20document.formArr%3D%20searchQS.split%28%27%26%27%29%3B%0A%20%20eval%28%27document.array%27+formID+%20%27%3D%20document.formArr%3B%27%29%3B%0A%20%20var%20rootRepeatElBind%20%3D%20document.getElementById%28rootRepeatID%29.getAttribute%28%22bind%22%29%3B%0A%20%20if%28rootRepeatElBind%21%3Dnull%20%26%26%20rootRepeatElBind%21%3Dundefined%20%26%26%20rootRepeatElBind%21%3D%27%27%29%7B%0A%20%20%20%20%20%20rootRepeatElBind%3Dunescape%28unescape%28%20unescape%28%20unescape%28rootRepeatElBind%20%29%20%29%20%29%29%3B%0A%20%20%7Delse%7B%0A%20%20%20%20%20%20rootRepeatElBind%3Dnull%3B%0A%20%20%7D%20%0A%20%20eval%28%27document.iterator%27+formID+%27%3D%20-1%3B%27%29%3B%0A%20%20if%28rootRepeatElBind%21%3Dnull%29%7B%0A%20%20%20%20%20eval%28rootRepeatElBind%29%3B%0A%20%20%7D%0A%20%20for%28var%20iterator%3D0%3B%20iterator%20%3C%20document.formArr.length%20%3B%20iterator++%29%7B%0A%20%20eval%28%27document.iterator%27+formID+%27%3D%20iterator%3B%27%29%3B%0Avar%20evalResult%3B%0A%20%20%20var%20evalItem%3D%27evalResult%3D%27+unescape%28unescape%28unescape%28%20unescape%28document.formArr%5Biterator%5D%29%20%29%29%29+%27%3B%27%3B%0Aeval%28evalItem%29%3B%0A%20%20%20eval%28%27document.item%27+formID+%27%3D%20evalResult%3B%27%29%3B%0A%20%20%20var%20arrayRepeat%20%3D%20jQuery%28%22%23%22+rootRepeatID%29.find%28%22%5Brepeat%3D%5C%22%22+formID+%22%5C%22%5D%22%29%3B%0A%20%20%20if%28arrayRepeat%21%3Dnull%20%26%26%20arrayRepeat%21%3Dundefined%20%26%26%20arrayRepeat.length%3E0%29%7B%0A%20%20%20%20for%28var%20r%3D0%20%3B%20r%20%3C%20arrayRepeat.length%3B%20++r%29%7B%0A%20%20%20%20%20eval%28%22document.bindIterator%22+formID+%22%20%3D%20%22+r+%22%3B%22%29%3B%0A%20%20%20%20%20var%20repeatEl%3Ddocument.getElementById%28%20arrayRepeat%5Br%5D.id%29%3B%0A%20%20%20%20%20var%20binding%3DrepeatEl.getAttribute%28%22bind%22%29%3B%0Aeval%28binding%29%3B%0A%20%20%20%20%7D%20%0A%20%20%20%7D%0A%20%20if%28rootRepeatElBind%21%3Dnull%29%7B%0A%20%20%20%20%20eval%28rootRepeatElBind%29%3B%0A%20%20%7D%0A%20%20eval%28%27document.iterator%27+formID+%27%3D%20iterator+1%3B%27%29%3B%0A%20%7D%0A%20%20if%28rootRepeatElBind%21%3Dnull%29%7B%0A%20%20%20%20%20eval%28rootRepeatElBind%29%3B%0A%20%20%7D%0A%7D%0Acatch%28e%29%7Balert%28%27Exception%3A%20%27+%20e.message+%22%5Cn%22+e.stack%29%3B%7D%0Areturn%20false%3B%0A%7D",
+                                "innerHTML": "document.submitSearch%3Dfunction%28el%2Cev%2CformID%2CdocumentVariableName%2Ccallback%29%7B%0A%20%20ev.preventDefault%28%29%3B%0Aeval%28document.getElementById%28%27SCRIPTExternalScripts%27%29.innerHTML%29%3B%0A%20%20eval%28document.getElementById%28%27SCRIPTJQ%27%29.innerHTML%29%3B%20%20%0A%20%20jQuery%3D%24%3B%0A%20%20document.setBounceSearchSinceToCurrentDate%28%29%3B%0A%20%20document.setBounceSearchRandomParm%28%29%3B%0A%20%20var%20uri%3DjQuery%28%27%23%27+formID%29.serialize%28%29%3B%0A%20%20var%20url%20%3D%20document.getElementById%28%27INPUTAPIURLPrefix%27%29.value%20+%20document.getElementById%28%27INPUTBounceSearchURL%27%29.value%20+%20uri%3B%0Adocument.loadJS%28url%2Cel%2Cev%2CdocumentVariableName%2Ccallback%29%3B%0A%20%20return%20false%3B%0A%7D%0A%0Adocument.setBounceSearchSinceToCurrentDate%3Dfunction%28%29%7B%0A%20%20var%20d%3Dnew%20Date%28%29%3B%0A%20%20var%20formattedDate%3Dd.getFullYear%28%29+%27-%27%20+%28%28d.getMonth%28%29+1%29%20%20%3C10%3F%220%22%3A%22%22%29+%28d.getMonth%28%29+1%29+%20%27-%27%20+%28d.getDate%28%29%3C10%3F%220%22%3A%22%22%29+d.getDate%28%29+%27%20%27%20+%28d.getHours%28%29%3C10%3F%220%22%3A%22%22%29+d.getHours%28%29+%27%3A%27+%28d.getMinutes%28%29%3C10%3F%220%22%3A%22%22%29+d.getMinutes%28%29+%27%3A%27%20+%28d.getSeconds%28%29%3C10%3F%220%22%3A%22%22%29+d.getSeconds%28%29%3B%0A%20%20document.getElementById%28%27INPUTBounceSearchSince%27%29.value%20%3D%20formattedDate%3B%0A%7D%0A%0Adocument.setBounceSearchRandomParm%3Dfunction%28%29%7B%0A%20%20document.getElementById%28%27INPUTBounceSearchRandom%27%29.value%20%3D%20Math.random%28%29%3B%0A%7D%0A%0Adocument.repeatAndBind%3Dfunction%28el%2C%20ev%2C%20formIDSearch%2C%20documentVariableName%2C%20callback%2C%20formID%2C%20rootRepeatID%29%7B%0Atry%7B%0Aev.preventDefault%28%29%3B%0AsubmitSearch%28el%2C%20ev%2C%20formIDSearch%2C%20documentVariableName%2Ccallback%29%3B%0Aeval%28document.getElementById%28%27SCRIPTExternalScripts%27%29.innerHTML%29%3B%20%20eval%28document.getElementById%28%27SCRIPTJQ%27%29.innerHTML%29%3B%0A%20%20jQuery%3D%24%3B%0A%20%20var%20searchQS%3DjQuery%28%27%23%27+formID%29.serialize%28%29%3B%0A%20%20console.debug%28searchQS%29%3B%0A%20%20document.formArr%3D%20searchQS.split%28%27%26%27%29%3B%0A%20%20eval%28%27document.array%27+formID+%20%27%3D%20document.formArr%3B%27%29%3B%0A%20%20var%20rootRepeatElBind%20%3D%20document.getElementById%28rootRepeatID%29.getAttribute%28%22bind%22%29%3B%0A%20%20if%28rootRepeatElBind%21%3Dnull%20%26%26%20rootRepeatElBind%21%3Dundefined%20%26%26%20rootRepeatElBind%21%3D%27%27%29%7B%0A%20%20%20%20%20%20rootRepeatElBind%3Dunescape%28unescape%28%20unescape%28%20unescape%28rootRepeatElBind%20%29%20%29%20%29%29%3B%0A%20%20%7Delse%7B%0A%20%20%20%20%20%20rootRepeatElBind%3Dnull%3B%0A%20%20%7D%20%0A%20%20eval%28%27document.iterator%27+formID+%27%3D%20-1%3B%27%29%3B%0A%20%20if%28rootRepeatElBind%21%3Dnull%29%7B%0A%20%20%20%20%20eval%28rootRepeatElBind%29%3B%0A%20%20%7D%0A%20%20for%28var%20iterator%3D0%3B%20iterator%20%3C%20document.formArr.length%20%3B%20iterator++%29%7B%0A%20%20eval%28%27document.iterator%27+formID+%27%3D%20iterator%3B%27%29%3B%0Avar%20evalResult%3B%0A%20%20%20var%20evalItem%3D%27evalResult%3D%27+unescape%28unescape%28unescape%28%20unescape%28document.formArr%5Biterator%5D%29%20%29%29%29+%27%3B%27%3B%0Aeval%28evalItem%29%3B%0A%20%20%20eval%28%27document.item%27+formID+%27%3D%20evalResult%3B%27%29%3B%0A%20%20%20var%20arrayRepeat%20%3D%20jQuery%28%22%23%22+rootRepeatID%29.find%28%22%5Brepeat%3D%5C%22%22+formID+%22%5C%22%5D%22%29%3B%0A%20%20%20if%28arrayRepeat%21%3Dnull%20%26%26%20arrayRepeat%21%3Dundefined%20%26%26%20arrayRepeat.length%3E0%29%7B%0A%20%20%20%20for%28var%20r%3D0%20%3B%20r%20%3C%20arrayRepeat.length%3B%20++r%29%7B%0A%20%20%20%20%20eval%28%22document.bindIterator%22+formID+%22%20%3D%20%22+r+%22%3B%22%29%3B%0A%20%20%20%20%20var%20repeatEl%3Ddocument.getElementById%28%20arrayRepeat%5Br%5D.id%29%3B%0A%20%20%20%20%20var%20binding%3DrepeatEl.getAttribute%28%22bind%22%29%3B%0Aeval%28binding%29%3B%0A%20%20%20%20%7D%20%0A%20%20%20%7D%0A%20%20if%28rootRepeatElBind%21%3Dnull%29%7B%0A%20%20%20%20%20eval%28rootRepeatElBind%29%3B%0A%20%20%7D%0A%20%20eval%28%27document.iterator%27+formID+%27%3D%20iterator+1%3B%27%29%3B%0A%20%7D%0A%20%20if%28rootRepeatElBind%21%3Dnull%29%7B%0A%20%20%20%20%20eval%28rootRepeatElBind%29%3B%0A%20%20%7D%0A%7D%0Acatch%28e%29%7Balert%28%27Exception%3A%20%27+%20e.message+%22%5Cn%22+e.stack%29%3B%7D%0Areturn%20false%3B%0A%7D",
                                 "stylesheetid": "STYLEMain",
                                 "styleruletype": "ID",
                                 "style": {},
@@ -545,7 +545,7 @@ jsonHash[divHTML.id].c=[
                                     "position": "absolute",
                                     "left": "0%"
                                 },
-                                "onclick": "eval%28document.getElementById%28%27SCRIPTBounceSearch%27%29.innerHTML%29%3Bvar%20formIDSearch%20%3D%20%27FORMBounceSearch%27%3Bvar%20documentVariableName%20%3D%20%27defaultSearch%27%3Bvar%20formIDBind%3D%27FORMBounceSearchRepeatAndBind%27%3Bvar%20rootRepeatID%3D%27ARTICLEBounce%27%3B%20document.repeatAndBind%28this%2C%20event%2C%20formIDSearch%2C%20documentVariableName%2Cfunction%28%29%7B%0Aeval%28%27console.debug%28xhr%27+documentVariableName+%27.responseText%29%3B%27%29%3Beval%28%27document.%27+documentVariableName+%27%3Ddocument.xhr%27+documentVariableName+%27.responseText%3B%27%29%3B%7D%2C%20formIDBind%2C%20rootRepeatID%29%3Breturn%20false%3B"
+                                "onclick": "eval%28document.getElementById%28%27SCRIPTBounceSearch%27%29.innerHTML%29%3Bvar%20formIDSearch%20%3D%20%27FORMBounceSearch%27%3Bvar%20documentVariableName%20%3D%20%27defaultSearch%27%3Bvar%20formIDBind%3D%27FORMBounceSearchRepeatAndBind%27%3Bvar%20rootRepeatID%3D%27ARTICLEBounce%27%3B%20document.repeatAndBind%28this%2C%20event%2C%20formIDSearch%2C%20documentVariableName%2Cfunction%28%29%7Beval%28%27document.%27+documentVariableName+%27%3Ddocument.xhr%27+documentVariableName+%27.responseText%3B%27%29%3B%7D%2C%20formIDBind%2C%20rootRepeatID%29%3Breturn%20false%3B"
                             }
                         ],
                         "stylesheetid": "STYLEMain",
@@ -628,8 +628,7 @@ jsonHash[divHTML.id].c=[
                     "right": "1%",
                     "text-align": null,
                     "width": "5%",
-                    "margin-top": null,
-                    "height": "6vw"
+                    "margin-top": null
                 },
                 "c": [
                     {
@@ -639,8 +638,7 @@ jsonHash[divHTML.id].c=[
                             "width": "100%",
                             "top": "0%",
                             "position": "absolute",
-                            "left": "0%",
-                            "height": "100%"
+                            "left": "0%"
                         },
                         "src": "../../image/bouncechat_menu.png",
                         "stylesheetid": "STYLEMain",
@@ -737,7 +735,7 @@ jsonHash[divHTML.id].c=[
             "color": "black",
             "font-size": "10vw",
             "overflow": "hidden",
-            "font-family": null,
+            "font-family": "firasansregular, sans-serif, serif, Times",
             "z-index": "1000000",
             "margin-bottom": "-5%"
         },
@@ -786,7 +784,7 @@ jsonHash[divHTML.id].c=[
                 "style": {
                     "position": "absolute",
                     "left": "0.25%",
-                    "top": "1.8vw",
+                    "top": "2vw",
                     "width": "9vw",
                     "height": "auto",
                     "z-index": "10008"
@@ -828,17 +826,14 @@ jsonHash[divHTML.id].c=[
                     "font-family": null,
                     "background-color": "transparent",
                     "z-index": "10001",
-                    "margin-left": "-25%",
-                    "margin-top": "-0.75%"
+                    "margin-left": "-25%"
                 },
                 "c": [
                     {
                         "e": "SPAN",
                         "id": "SPANHeaderCenter",
                         "innerHTML": "",
-                        "style": {
-                            "margin-top": null
-                        },
+                        "style": {},
                         "c": [
                             {
                                 "e": "SPAN",
@@ -846,9 +841,7 @@ jsonHash[divHTML.id].c=[
                                 "innerHTML": "All%20Chats",
                                 "style": {
                                     "width": "",
-                                    "margin-left": "6%",
-                                    "margin-top": null,
-                                    "font-family": null
+                                    "margin-left": "6%"
                                 },
                                 "stylesheetid": "STYLEMain",
                                 "styleruletype": "ID"
@@ -857,7 +850,7 @@ jsonHash[divHTML.id].c=[
                                 "e": "IMG",
                                 "id": "IMGChatMenu",
                                 "style": {
-                                    "margin-top": "0.5vw",
+                                    "margin-top": ".25vw",
                                     "position": "absolute",
                                     "margin-left": "+2px",
                                     "width": "6%",
@@ -883,14 +876,14 @@ jsonHash[divHTML.id].c=[
                 "id": "NAVChats",
                 "style": {
                     "position": "absolute",
-                    "left": "2.8vw",
+                    "left": "1.2565277367763419%",
                     "top": "8.5vw",
-                    "width": "91.5vw",
+                    "width": "92.97076525424748%",
                     "height": null,
-                    "margin-top": "1.45vw",
+                    "margin-top": "1vw",
                     "background-color": "transparent",
                     "display": "table",
-                    "z-index": "1000000",
+                    "z-index": null,
                     "padding": "0.01vw 0.01vw 0.01vw 0.01vw",
                     "line-height": null,
                     "pointer-events": "none"
@@ -992,7 +985,7 @@ jsonHash[divHTML.id].c=[
                     {
                         "e": "SCRIPT",
                         "id": "SCRIPTSlider",
-                        "innerHTML": "function%20sliderChanged%28slider%2Csvalue%29%7B%0Avar%20v%3Dslider.value%3DMath.round%28svalue%29%3B%0Avar%20val%3D%2710%3Cbr/%3Emiles%27%3B%0Avar%20labels%3Ddocument.getElementById%28%27TABLESlider%27%29.querySelectorAll%28%27DIV%27%29%3B%0Afor%28var%20i%3D0%3Bi%3Clabels.length%3Bi++%29%7Blabels%5Bi%5D.setAttribute%28%27class%27%2C%27DIVSliderLabel%27%29%3B%7D%0Avar%20labelName%3D%27City%27%3B%0Avar%20largeFont%3Dfalse%3B%0Aif%28v%3D%3D0%29%7Bval%3D%27100%3Cbr/%3Eyrds%27%3BlabelName%3D%27Place%27%3B%7Delse%20if%28v%3D%3D1%29%7Bval%3D%271%3Cbr/%3Emile%27%3BlabelName%3D%27Event%27%3B%7Delse%20if%28v%3D%3D2%29%7Bval%3D%2710%3Cbr/%3Emiles%27%3BlabelName%3D%27City%27%3B%7Delse%20if%28v%3D%3D3%29%7Bval%3D%27100%3Cbr/%3Emiles%27%3BlabelName%3D%27Area%27%3B%7Delse%20if%28v%3D%3D4%29%7Bval%3D%27%3Cb%3E%26%238734%27%3BlabelName%3D%27Galactic%27%3BlargeFont%3Dtrue%3B%7D%0Avar%20el%3Ddocument.getElementById%28%27DIV%27+labelName+%27Label%27%29%3B%0Ael.setAttribute%28%27class%27%2C%27DIVSliderLabel%20blackForeground%27%29%3B%0Adocument.getElementById%28%27IMGSliderThumb%27%29.setAttribute%28%27class%27%2C%28largeFont%3F%20%27LABELSliderThumb%20DIVSliderLabelLarge%27%3A%27LABELSliderThumb%27%29%29%3B%0Avar%20tlabel%3Ddocument.getElementById%28%27IMGSliderThumb%27%29%3B%0Atlabel.innerHTML%3Dval%3B%0Aslider.oninput%28%29%3B%0A%7D%0Afunction%20sliderInput%28slider%2Csvalue%29%7B%0Avar%20thumb%3Ddocument.getElementById%28%27IMGSliderThumb%27%29%3B%0Avar%20tlabel%3Ddocument.getElementById%28%27LABELSliderThumb%27%29%3B%0Atlabel.style.left%3Dthumb.style.left%3D%28%28%28100-9*2%29/5%29*svalue%29-4.5+6.4*svalue+%27%25%27%3B%0A%7D",
+                        "innerHTML": "function%20sliderChanged%28slider%2Csvalue%29%7B%0Avar%20v%3Dslider.value%3DMath.round%28svalue%29%3B%0Avar%20val%3D%2710%3Cbr/%3Emiles%27%3B%0Avar%20labels%3Ddocument.getElementById%28%27TABLESlider%27%29.querySelectorAll%28%27DIV%27%29%3B%0Afor%28var%20i%3D0%3Bi%3Clabels.length%3Bi++%29%7Blabels%5Bi%5D.setAttribute%28%27class%27%2C%27DIVSliderLabel%27%29%3B%7D%0Avar%20labelName%3D%27City%27%3B%0Avar%20largeFont%3Dfalse%3B%0Aif%28v%3D%3D0%29%7Bval%3D%27100%3Cbr/%3Eyrds%27%3BlabelName%3D%27Place%27%3B%7Delse%20if%28v%3D%3D1%29%7Bval%3D%271%3Cbr/%3Emile%27%3BlabelName%3D%27Event%27%3B%7Delse%20if%28v%3D%3D2%29%7Bval%3D%2710%3Cbr/%3Emiles%27%3BlabelName%3D%27City%27%3B%7Delse%20if%28v%3D%3D3%29%7Bval%3D%27100%3Cbr/%3Emiles%27%3BlabelName%3D%27Area%27%3B%7Delse%20if%28v%3D%3D4%29%7Bval%3D%27%3Cb%3E%26%238734%27%3BlabelName%3D%27Galactic%27%3BlargeFont%3Dtrue%3B%7D%0Avar%20el%3Ddocument.getElementById%28%27DIV%27+labelName+%27Label%27%29%3B%0Ael.setAttribute%28%27class%27%2C%27DIVSliderLabel%20blackForeground%27%29%3B%0Adocument.getElementById%28%27LABELSliderThumb%27%29.setAttribute%28%27class%27%2C%28largeFont%3F%27%20DIVSliderLabelLarge%27%3A%27%27%29%29%3B%0Avar%20tlabel%3Ddocument.getElementById%28%27LABELSliderThumb%27%29%3B%0Atlabel.innerHTML%3Dval%3B%0Aslider.oninput%28%29%3B%0A%7D%0Afunction%20sliderInput%28slider%2Csvalue%29%7B%0Avar%20thumb%3Ddocument.getElementById%28%27IMGSliderThumb%27%29%3B%0Avar%20tlabel%3Ddocument.getElementById%28%27LABELSliderThumb%27%29%3B%0Atlabel.style.left%3Dthumb.style.left%3D%28%28%28100-9*2%29/5%29*svalue%29-4.5+6.4*svalue+%27%25%27%3B%0A%7D%0A",
                         "style": {},
                         "type": "text/javascript",
                         "stylesheetid": "STYLEMain",
@@ -1003,9 +996,9 @@ jsonHash[divHTML.id].c=[
                         "id": "TABLESlider",
                         "innerHTML": "",
                         "style": {
-                            "left": "2.10vw",
-                            "width": "92.2vw",
-                            "font-family": null,
+                            "left": "4%",
+                            "width": "92.18%",
+                            "font-family": "firasansregular, sans-serif, serif, Times",
                             "background-color": "transparent",
                             "margin-top": "",
                             "font-size": "2.11vw",
@@ -1013,7 +1006,7 @@ jsonHash[divHTML.id].c=[
                             "padding-left": "",
                             "display": "table",
                             "opacity": "1 !important",
-                            "top": "23vw",
+                            "top": "22vw",
                             "position": null
                         },
                         "class": "SliderRegion",
@@ -1205,13 +1198,13 @@ jsonHash[divHTML.id].c=[
                         "e": "IMG",
                         "id": "IMGSliderLine",
                         "style": {
-                            "height": "0.8vw",
-                            "margin-top": "-2vw",
+                            "height": "1vw",
+                            "margin-top": "-2.2vw",
                             "display": "block !important",
                             "opacity": "1",
-                            "margin-left": "2.75vw",
-                            "width": "74.75vw",
-                            "top": "22.9vw"
+                            "margin-left": "+3%",
+                            "width": "75%",
+                            "top": "22vw"
                         },
                         "src": "../../image/squaregrey.png",
                         "class": "SliderRegion",
@@ -1227,25 +1220,24 @@ jsonHash[divHTML.id].c=[
                             "left": "",
                             "display": "block !important",
                             "opacity": "1 !important",
-                            "top": "23vw",
+                            "top": "22vw",
                             "z-index": null,
                             "pointer-events": "none"
                         },
                         "c": [
                             {
                                 "e": "IMG",
-                                "id": "IMGSliderThumbHidden",
+                                "id": "IMGSliderThumb",
                                 "style": {
                                     "height": null,
                                     "position": "absolute",
-                                    "opacity": "0",
+                                    "opacity": "",
                                     "margin-left": "4.11%",
                                     "left": "41.1%",
                                     "azimuth": "",
                                     "font-size": null,
                                     "widows": null,
-                                    "width": "8vw",
-                                    "display": null
+                                    "width": "8vw"
                                 },
                                 "src": "../../image/circlegrey.png",
                                 "onload": "document.getElementById%28%27LABELSliderThumb%27%29.style.marginLeft%3D%276.3%25%27",
@@ -1259,8 +1251,8 @@ jsonHash[divHTML.id].c=[
                                 "style": {
                                     "height": "100%",
                                     "position": "absolute",
-                                    "opacity": "0",
-                                    "margin-left": "4.3vw",
+                                    "opacity": "",
+                                    "margin-left": "4.2vw",
                                     "left": "39.25%",
                                     "font-size": "2.5vw",
                                     "padding-top": "1.3vw",
@@ -1275,33 +1267,6 @@ jsonHash[divHTML.id].c=[
                                 },
                                 "stylesheetid": "STYLEMain",
                                 "styleruletype": "ID"
-                            },
-                            {
-                                "e": "BUTTON",
-                                "id": "IMGSliderThumb",
-                                "innerHTML": "10%3Cbr/%3Emiles",
-                                "style": {
-                                    "background-color": "#7c848d",
-                                    "color": "white",
-                                    "padding": "0.25vw 0.25vw 0.25vw 0.25vw",
-                                    "font-size": "3vw",
-                                    "margin-left": "2.4vw",
-                                    "margin-top": "-1vw",
-                                    "border-radius": "9vw",
-                                    "float": "right",
-                                    "display": "inline",
-                                    "clear": "both ",
-                                    "position": "absolute",
-                                    "left": "33vw",
-                                    "width": "10vw",
-                                    "text-align": "center",
-                                    "vertical-align": "middle",
-                                    "height": "10vw",
-                                    "pointer-events": "none"
-                                },
-                                "stylesheetid": "STYLEMain",
-                                "styleruletype": "Class",
-                                "class": "LABELSliderThumb"
                             }
                         ],
                         "class": "SliderRegion",
@@ -1314,8 +1279,8 @@ jsonHash[divHTML.id].c=[
                         "innerHTML": "",
                         "style": {
                             "position": "absolute",
-                            "left": "8vw",
-                            "top": "23vw",
+                            "left": "9.25vw",
+                            "top": "22vw",
                             "width": "80vw",
                             "height": "8.1vw",
                             "color": "",
@@ -1325,8 +1290,7 @@ jsonHash[divHTML.id].c=[
                             "background-color": "",
                             "display": "",
                             "pointer-events": "all",
-                            "border": null,
-                            "font-size": null
+                            "border": null
                         },
                         "type": "range",
                         "max": "4",
@@ -1343,7 +1307,7 @@ jsonHash[divHTML.id].c=[
                     }
                 ],
                 "style": {
-                    "margin-top": "6vw",
+                    "margin-top": "5vw",
                     "position": null,
                     "top": null,
                     "z-index": "1000999999",
@@ -1360,7 +1324,7 @@ jsonHash[divHTML.id].c=[
                 "style": {
                     "position": "absolute",
                     "left": "0%",
-                    "top": "29.85vw",
+                    "top": "29.5vw",
                     "width": "100%",
                     "height": null,
                     "z-index": "1000002"
@@ -1407,11 +1371,7 @@ jsonHash[divHTML.id].c=[
                                         "src": "../../image/appicon.png",
                                         "stylesheetid": "STYLEMain",
                                         "styleruletype": "Class",
-                                        "class": "IMGChatMemberPicture",
-                                        "c": [],
-                                        "innerHTML": "",
-                                        "contenteditable": "",
-                                        "dropzone": ""
+                                        "class": "IMGChatMemberPicture"
                                     }
                                 ],
                                 "stylesheetid": "STYLEMain",
@@ -1598,14 +1558,13 @@ jsonHash[divHTML.id].c=[
                                                 "innerHTML": "##m ago",
                                                 "style": {
                                                     "font-size": "2.8vw",
-                                                    "margin-left": null,
+                                                    "margin-left": "6px",
                                                     "display": "table-cell",
                                                     "position": "relative",
                                                     "left": "3.5px",
                                                     "top": null,
                                                     "height": "auto",
-                                                    "vertical-align": "middle",
-                                                    "padding-left": "1.75vw"
+                                                    "vertical-align": "middle"
                                                 },
                                                 "stylesheetid": "STYLEMain",
                                                 "styleruletype": "Class",
@@ -1650,8 +1609,7 @@ jsonHash[divHTML.id].c=[
                                             "color": "#f47215",
                                             "font-weight": "bold",
                                             "display": null,
-                                            "float": "right",
-                                            "padding-right": "0.5vw"
+                                            "float": "right"
                                         },
                                         "c": [],
                                         "contenteditable": "",
@@ -1674,8 +1632,7 @@ jsonHash[divHTML.id].c=[
                                             "border-radius": "8px",
                                             "float": "right",
                                             "display": null,
-                                            "clear": "both ",
-                                            "position": null
+                                            "clear": "both "
                                         },
                                         "stylesheetid": "STYLEMain",
                                         "styleruletype": "Class",
@@ -1743,15 +1700,13 @@ jsonHash[divHTML.id].c=[
                                             "left": "4%",
                                             "top": null,
                                             "opacity": null,
-                                            "margin-top": "0.5%",
-                                            "height": "5.5vw",
-                                            "z-index": "1000"
+                                            "margin-top": "0.75%",
+                                            "height": "5.5vw"
                                         },
                                         "src": "../../image/bouncechat_youliked.png",
                                         "stylesheetid": "STYLEMain",
                                         "styleruletype": "Class",
-                                        "class": "ImageHeartList",
-                                        "c": []
+                                        "class": "ImageHeartList"
                                     },
                                     {
                                         "e": "UL",
@@ -1815,53 +1770,46 @@ jsonHash[divHTML.id].c=[
                                 "id": "IMGLastsTimeEternity",
                                 "style": {
                                     "position": "absolute",
-                                    "left": "2.4%",
-                                    "top": "92%",
-                                    "height": null,
-                                    "word-spacing": null,
-                                    "width": "9.5%",
-                                    "z-index": "10"
+                                    "left": "3.3%",
+                                    "top": "93.5%",
+                                    "height": "4.8%",
+                                    "visibility": null,
+                                    "display": "none"
                                 },
                                 "src": "../../image/bouncechat-1_39.png",
                                 "class": "IMGLastsTimeEternity",
                                 "onclick": "this.setAttribute%28%27style%27%2C%20%0A%27display%3Anone%20%21important%3B%27%20%29%3Bvar%20img%3Ddocument.getElementById%28%27IMGLastsTime%27+this.id.replace%28/IMGLastsTimeEternity/%2C%27%27%29%29%3Bimg.setAttribute%28%27style%27%2C%27display%3A%20block%3B%27%29%3B",
                                 "stylesheetid": "STYLEMain",
-                                "styleruletype": "Class",
-                                "c": []
+                                "styleruletype": "Class"
                             },
                             {
                                 "e": "IMG",
                                 "id": "IMGLastsTime",
                                 "style": {
                                     "position": "absolute",
-                                    "left": "2.4%",
-                                    "top": "92%",
-                                    "height": null,
-                                    "word-spacing": null,
-                                    "width": "9.5%",
-                                    "z-index": "10"
+                                    "left": "3.3%",
+                                    "top": "93.5%",
+                                    "height": "4.8%"
                                 },
                                 "src": "../../image/bouncechat-1_40.png",
                                 "class": "IMGLastsTime",
                                 "onclick": "this.setAttribute%28%27style%27%2C%27display%3Anone%20%21important%3B%27%29%3Bvar%20img%3Ddocument.getElementById%28%27IMGLastsTimeEternity%27+this.id.replace%28/IMGLastsTime/g%2C%27%27%29%29%3Bimg.setAttribute%28%27style%27%2C%27display%3Ablock%20%21important%3B%27%29%3B",
                                 "stylesheetid": "STYLEMain",
-                                "styleruletype": "Class",
-                                "c": []
+                                "styleruletype": "Class"
                             },
                             {
                                 "e": "LABEL",
                                 "id": "LABELLastsTimeLabel",
                                 "innerHTML": "Lasts for eternity",
                                 "style": {
-                                    "left": "11.5%",
+                                    "left": "11%",
                                     "width": "376px",
                                     "height": "2%",
                                     "position": "absolute",
                                     "color": "grey",
                                     "font-size": "2.3vw",
                                     "margin-top": "+2.6%",
-                                    "top": "93%",
-                                    "z-index": "1000"
+                                    "top": "93%"
                                 },
                                 "c": [],
                                 "contenteditable": "",
@@ -1879,15 +1827,13 @@ jsonHash[divHTML.id].c=[
                                     "top": "93%",
                                     "width": "6.4%",
                                     "visibility": "hidden",
-                                    "pointer-events": "none",
-                                    "z-index": "1000"
+                                    "pointer-events": "none"
                                 },
                                 "src": "../../image/bouncechat_youliked.png",
                                 "stylesheetid": "STYLEMain",
                                 "styleruletype": "Class",
                                 "class": "IMGHeartLikeImage",
-                                "onclick": "this.style.visibility%3D%27hidden%27%3Bthis.style.pointerEvents%3D%27none%27%3Bvar%20img%3Ddocument.getElementById%28%27IMGHeartNoLikes%27+this.id.replace%28%27IMGHeartYouLiked%27%2C%27%27%29%29%3Bimg.style.visibility%3D%27visible%27%3Bimg.style.pointerEvents%3D%27all%27%3B",
-                                "c": []
+                                "onclick": "this.style.visibility%3D%27hidden%27%3Bthis.style.pointerEvents%3D%27none%27%3Bvar%20img%3Ddocument.getElementById%28%27IMGHeartNoLikes%27+this.id.replace%28%27IMGHeartYouLiked%27%2C%27%27%29%29%3Bimg.style.visibility%3D%27visible%27%3Bimg.style.pointerEvents%3D%27all%27%3B"
                             },
                             {
                                 "e": "IMG",
@@ -1897,15 +1843,13 @@ jsonHash[divHTML.id].c=[
                                     "left": "64%",
                                     "top": "93%",
                                     "width": "6.4%",
-                                    "pointer-events": "pointer",
-                                    "z-index": "1000"
+                                    "pointer-events": "pointer"
                                 },
                                 "src": "../../image/bouncechat_nolikes.png",
                                 "class": "IMGHeartNoLikes",
                                 "onclick": "var%20otherimgID%3D%27IMGHeartYouLiked%27+this.id.replace%28%27IMGHeartNoLikes%27%2C%27%27%29%3Bthis.style.visibility%3D%27hidden%27%3Bvar%20img%3Ddocument.getElementById%28otherimgID%29%3Bimg.style.visibility%3D%27visible%27%3Bimg.style.pointerEvents%3D%27all%27%3Bthis.style.pointerEvents%3D%27none%27%3B",
                                 "stylesheetid": "STYLEMain",
-                                "styleruletype": "Class",
-                                "c": []
+                                "styleruletype": "Class"
                             },
                             {
                                 "e": "IMG",
@@ -1942,8 +1886,8 @@ jsonHash[divHTML.id].c=[
                                 "id": "IMGSubMenuIcon",
                                 "style": {
                                     "position": "absolute",
-                                    "left": "88.5%",
-                                    "top": "92.4%",
+                                    "left": "89%",
+                                    "top": "92.26%",
                                     "margin-left": "",
                                     "margin-right": "",
                                     "margin-top": "",
@@ -2018,9 +1962,9 @@ jsonHash[divHTML.id].c=[
                     "top": null,
                     "width": "auto",
                     "height": "auto",
-                    "margin-left": "-2.75%",
+                    "margin-left": "-1.75%",
                     "margin-right": "",
-                    "margin-top": "0.25%",
+                    "margin-top": "1%",
                     "margin-bottom": "",
                     "background-color": "red",
                     "color": "white",
@@ -2055,8 +1999,7 @@ jsonHash[divHTML.id].c=[
                 "value": "Bounce%20what%20you%20love%21",
                 "stylesheetid": "STYLEMain",
                 "styleruletype": "Class",
-                "class": "INPUTBounceText",
-                "onfocus": "if%28this.value%3D%3D%27Bounce%20what%20you%20love%21%27%29%7Bthis.value%3D%27%27%3B%7D"
+                "class": "INPUTBounceText"
             },
             {
                 "e": "IMG",
@@ -2083,15 +2026,14 @@ jsonHash[divHTML.id].c=[
                     "position": "absolute",
                     "margin-right": "1%",
                     "top": "0%",
-                    "margin-top": "0.25",
+                    "margin-top": "1%",
                     "width": " ",
-                    "height": "85%"
+                    "height": "98%"
                 },
                 "src": "../../image/map.png",
                 "stylesheetid": "STYLEMain",
                 "styleruletype": "Class",
-                "class": "IMGFooterMap",
-                "onclick": "OnClick%20Event"
+                "class": "IMGFooterMap"
             },
             {
                 "e": "IMG",
@@ -2100,9 +2042,9 @@ jsonHash[divHTML.id].c=[
                 "stylesheetid": "STYLEMain",
                 "styleruletype": "ID",
                 "style": {
-                    "height": "90%",
+                    "height": "98%",
                     "margin-left": "1%",
-                    "margin-top": "0.25%",
+                    "margin-top": "1%",
                     "top": "0%"
                 },
                 "src": "../../image/ic_action_person.png"
