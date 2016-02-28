@@ -2,7 +2,7 @@ jsonHash[divHTML.id].c=[
     {
         "e": "STYLE",
         "id": "STYLEMain",
-        "innerHTML": "html%2C%20body%2C%20div%2C%20span%2C%20applet%2C%20object%2C%20iframe%2Ch1%2C%20h2%2C%20h3%2C%20h4%2C%20h5%2C%20h6%2C%20p%2C%20blockquote%2C%20pre%2Ca%2C%20abbr%2C%20acronym%2C%20address%2C%20big%2C%20cite%2C%20code%2Cdel%2C%20dfn%2C%20em%2C%20font%2C%20img%2C%20ins%2C%20kbd%2C%20q%2C%20s%2C%20samp%2Csmall%2C%20strike%2C%20strong%2C%20sub%2C%20sup%2C%20tt%2C%20var%2Cb%2C%20u%2C%20i%2C%20center%2C%20dl%2C%20dt%2C%20dd%2C%20ol%2C%20ul%2C%20li%2Cfieldset%2C%20form%2C%20label%2C%20legend%2C%20table%2C%20caption%2C%20tbody%2C%20tfoot%2C%20thead%2C%20tr%2C%20th%2C%20td%20%2Cfigure%7Bmargin%3A%200%3Bpadding%3A%200%3Bborder%3A%200%3Boutline%3A%200%3Bfont-size%3A%20100%25%3Bvertical-align%3A%20baseline%3Bbackground%3A%20transparent%3B-webkit-margin-before%3A%20em%3B-webkit-margin-after%3A%200em%3B-webkit-margin-start%3A%200px%3B-webkit-margin-end%3A%200px%3B%7D%0Aheader%7Bbackground-color%3Awhite%3B%7D%0Abody%7Bline-height%3A1%3Bbackground-color%3Awhite%3B%7D%0Aol%2C%20ul%7Blist-style%3A%20none%3B%7D%0ADIVSliderLabelLarge%7Bfont-size%3A%205.3vw%3B%7D%0Ablockquote%2C%20q%7Bquotes%3A%20none%3B%7D%0Ablockquote%3Abefore%2C%20blockquote%3Aafter%2C%0Aq%3Abefore%2C%20q%3Aafter%20%7Bcontent%3A%20%27%27%3B%20content%3A%20none%3B%7D%0A%3Afocus%7Boutline%3A%200%3B%7D%0Ains%7Btext-decoration%3A%20none%3B%7D%0Adel%7Btext-decoration%3A%20line-through%3B%7D%0Atableborder-collapse%3A%20collapse%3Bborder-spacing%3A%200%3B%7D%0A@font-face%20%7B%0A%20%20%20%20font-family%3A%20%27firasansregular%27%3B%0A%20%20%20%20src%3A%20url%28%27../../html/home/firasans-regular-webfont.eot%27%29%3B%0A%20%20%20%20src%3A%20url%28%27../../html/home/firasans-regular-webfont.eot%3F%23iefix%27%29%20format%28%27embedded-opentype%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.woff2%27%29%20format%28%27woff2%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.woff%27%29%20format%28%27woff%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.ttf%27%29%20format%28%27truetype%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.svg%23fira_sansregular%27%29%20format%28%27svg%27%29%3B%0A%20%20%20%20font-weight%3A%20normal%3B%0A%20%20%20%20font-style%3A%20normal%3B%0A%7D%0A*%7B%0A-webkit-user-select%3A%20none%3B%0A-moz-user-select%3A%20none%3B%0A-ms-user-select%3A%20none%3B%0Auser-select%3A%20none%3B%0A%7D%0A.mainConfigFormRowElementLabel%20%7Btext-align%3Aright%3Bdisplay%3Ainline%3B%20width%3A20%25%3B%7D%0A.mainConfigFormRowElement%20%7Btext-align%3Aleft%3Bdisplay%3Ainline%3B%20width%3A20%25%3B%7D%0A%23DIVMainConfigWin%20%3E%20*%20%7B%20background-color%3A%20transparent%20%21important%3B%20opacity%3A1%3B%7D%0A%23DIVImageSpacers%20IMG%20%7Bopacity%3A1%3B%7D%0A%23DIVSlider%20%3E%20*%20%7B%20margin-top%3A-5.8%25%3B%7D%0A%23ARTICLEBouncex%20%7Bdisplay%3Anone%3B%7D%0A.DIVSliderLabelLarge%7Bfont-size%3A%205.3vw%20%21important%3B%7D%0A.ANAVChat%7B%20pointer-events%3A%20all%3B%20font-size%3A%202.2vw%3B%20padding%3A%208px%2015px%208px%2015px%3B%20margin-top%3A%20+5px%3B%20display%3A%20table-cell%3B%20text-align%3A%20center%3B%7D%0A.blackForeground%7Bcolor%3Ablack%20%21important%3B%7D%0A.underline%7Btext-decoration%3Aunderline%3B%7D%0A.opaque%7Bopacity%3A1%3B%7D%0A.hidden%7Bdisplay%3Anone%3B%7D",
+        "innerHTML": "html%2C%20body%2C%20div%2C%20span%2C%20applet%2C%20object%2C%20iframe%2Ch1%2C%20h2%2C%20h3%2C%20h4%2C%20h5%2C%20h6%2C%20p%2C%20blockquote%2C%20pre%2Ca%2C%20abbr%2C%20acronym%2C%20address%2C%20big%2C%20cite%2C%20code%2Cdel%2C%20dfn%2C%20em%2C%20font%2C%20img%2C%20ins%2C%20kbd%2C%20q%2C%20s%2C%20samp%2Csmall%2C%20strike%2C%20strong%2C%20sub%2C%20sup%2C%20tt%2C%20var%2Cb%2C%20u%2C%20i%2C%20center%2C%20dl%2C%20dt%2C%20dd%2C%20ol%2C%20ul%2C%20li%2Cfieldset%2C%20form%2C%20label%2C%20legend%2C%20table%2C%20caption%2C%20tbody%2C%20tfoot%2C%20thead%2C%20tr%2C%20th%2C%20td%20%2Cfigure%7Bmargin%3A%200%3Bpadding%3A%200%3Bborder%3A%200%3Boutline%3A%200%3Bfont-size%3A%20100%25%3Bvertical-align%3A%20baseline%3Bbackground%3A%20transparent%3B-webkit-margin-before%3A%20em%3B-webkit-margin-after%3A%200em%3B-webkit-margin-start%3A%200px%3B-webkit-margin-end%3A%200px%3B%7D%0Aheader%7Bbackground-color%3Awhite%3B%7D%0Abody%7Bline-height%3A1%3Bbackground-color%3Awhite%3B%7D%0Aol%2C%20ul%7Blist-style%3A%20none%3B%7D%0ADIVSliderLabelLarge%7Bfont-size%3A%205.3vw%3B%7D%0Ablockquote%2C%20q%7Bquotes%3A%20none%3B%7D%0Ablockquote%3Abefore%2C%20blockquote%3Aafter%2C%0Aq%3Abefore%2C%20q%3Aafter%20%7Bcontent%3A%20%27%27%3B%20content%3A%20none%3B%7D%0A%3Afocus%7Boutline%3A%200%3B%7D%0Ains%7Btext-decoration%3A%20none%3B%7D%0Adel%7Btext-decoration%3A%20line-through%3B%7D%0Atableborder-collapse%3A%20collapse%3Bborder-spacing%3A%200%3B%7D%0A@font-face%20%7B%0A%20%20%20%20font-family%3A%20%27firasansregular%27%3B%0A%20%20%20%20src%3A%20url%28%27../../html/home/firasans-regular-webfont.eot%27%29%3B%0A%20%20%20%20src%3A%20url%28%27../../html/home/firasans-regular-webfont.eot%3F%23iefix%27%29%20format%28%27embedded-opentype%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.woff2%27%29%20format%28%27woff2%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.woff%27%29%20format%28%27woff%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.ttf%27%29%20format%28%27truetype%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.svg%23fira_sansregular%27%29%20format%28%27svg%27%29%2C%20arial%3B%0A%20%20%20%20font-weight%3A%20normal%3B%0A%20%20%20%20font-style%3A%20normal%3B%0A%7D%0ABODY%7B%0Afont-family%3A%20%27firasansregular%27%2Carial%3B%0A%7D%0A*%7B%0A-webkit-user-select%3A%20none%3B%0A-moz-user-select%3A%20none%3B%0A-ms-user-select%3A%20none%3B%0Auser-select%3A%20none%3B%0A%7D%0A.mainConfigFormRowElementLabel%20%7Btext-align%3Aright%3Bdisplay%3Ainline%3B%20width%3A20%25%3B%7D%0A.mainConfigFormRowElement%20%7Btext-align%3Aleft%3Bdisplay%3Ainline%3B%20width%3A20%25%3B%7D%0A%23DIVMainConfigWin%20%3E%20*%20%7B%20background-color%3A%20transparent%20%21important%3B%20opacity%3A1%3B%7D%0A%23DIVImageSpacers%20IMG%20%7Bopacity%3A1%3B%7D%0A%23DIVSlider%20%3E%20*%20%7B%20margin-top%3A-5.8%25%3B%7D%0A.DIVSliderLabelLarge%7Bfont-size%3A%205.3vw%20%21important%3B%7D%0A.ANAVChat%7B%20pointer-events%3A%20all%3B%20font-size%3A%202.2vw%3B%20padding%3A%208px%2015px%208px%2015px%3B%20margin-top%3A%20+5px%3B%20display%3A%20table-cell%3B%20text-align%3A%20center%3B%7D%0A.blackForeground%7Bcolor%3Ablack%20%21important%3B%7D%0A.underline%7Btext-decoration%3Aunderline%3B%7D%0A.opaque%7Bopacity%3A1%3B%7D%0A.hidden%7Bdisplay%3Anone%3B%7D",
         "style": {
             "width": null,
             "height": null
@@ -628,7 +628,8 @@ jsonHash[divHTML.id].c=[
                     "right": "1%",
                     "text-align": null,
                     "width": "5%",
-                    "margin-top": null
+                    "margin-top": null,
+                    "height": "6vw"
                 },
                 "c": [
                     {
@@ -638,7 +639,8 @@ jsonHash[divHTML.id].c=[
                             "width": "100%",
                             "top": "0%",
                             "position": "absolute",
-                            "left": "0%"
+                            "left": "0%",
+                            "height": "100%"
                         },
                         "src": "../../image/bouncechat_menu.png",
                         "stylesheetid": "STYLEMain",
@@ -735,7 +737,7 @@ jsonHash[divHTML.id].c=[
             "color": "black",
             "font-size": "10vw",
             "overflow": "hidden",
-            "font-family": "firasansregular, sans-serif, serif, Times",
+            "font-family": null,
             "z-index": "1000000",
             "margin-bottom": "-5%"
         },
@@ -826,14 +828,17 @@ jsonHash[divHTML.id].c=[
                     "font-family": null,
                     "background-color": "transparent",
                     "z-index": "10001",
-                    "margin-left": "-25%"
+                    "margin-left": "-25%",
+                    "margin-top": "-0.75%"
                 },
                 "c": [
                     {
                         "e": "SPAN",
                         "id": "SPANHeaderCenter",
                         "innerHTML": "",
-                        "style": {},
+                        "style": {
+                            "margin-top": null
+                        },
                         "c": [
                             {
                                 "e": "SPAN",
@@ -841,7 +846,9 @@ jsonHash[divHTML.id].c=[
                                 "innerHTML": "All%20Chats",
                                 "style": {
                                     "width": "",
-                                    "margin-left": "6%"
+                                    "margin-left": "6%",
+                                    "margin-top": null,
+                                    "font-family": null
                                 },
                                 "stylesheetid": "STYLEMain",
                                 "styleruletype": "ID"
@@ -850,7 +857,7 @@ jsonHash[divHTML.id].c=[
                                 "e": "IMG",
                                 "id": "IMGChatMenu",
                                 "style": {
-                                    "margin-top": ".25vw",
+                                    "margin-top": "0.5vw",
                                     "position": "absolute",
                                     "margin-left": "+2px",
                                     "width": "6%",
@@ -876,14 +883,14 @@ jsonHash[divHTML.id].c=[
                 "id": "NAVChats",
                 "style": {
                     "position": "absolute",
-                    "left": "1.2565277367763419%",
+                    "left": "3%",
                     "top": "8.5vw",
-                    "width": "92.97076525424748%",
+                    "width": "91.5vw",
                     "height": null,
-                    "margin-top": "1vw",
+                    "margin-top": "1.1vw",
                     "background-color": "transparent",
                     "display": "table",
-                    "z-index": null,
+                    "z-index": "1000000",
                     "padding": "0.01vw 0.01vw 0.01vw 0.01vw",
                     "line-height": null,
                     "pointer-events": "none"
@@ -985,7 +992,7 @@ jsonHash[divHTML.id].c=[
                     {
                         "e": "SCRIPT",
                         "id": "SCRIPTSlider",
-                        "innerHTML": "function%20sliderChanged%28slider%2Csvalue%29%7B%0Avar%20v%3Dslider.value%3DMath.round%28svalue%29%3B%0Avar%20val%3D%2710%3Cbr/%3Emiles%27%3B%0Avar%20labels%3Ddocument.getElementById%28%27TABLESlider%27%29.querySelectorAll%28%27DIV%27%29%3B%0Afor%28var%20i%3D0%3Bi%3Clabels.length%3Bi++%29%7Blabels%5Bi%5D.setAttribute%28%27class%27%2C%27DIVSliderLabel%27%29%3B%7D%0Avar%20labelName%3D%27City%27%3B%0Avar%20largeFont%3Dfalse%3B%0Aif%28v%3D%3D0%29%7Bval%3D%27100%3Cbr/%3Eyrds%27%3BlabelName%3D%27Place%27%3B%7Delse%20if%28v%3D%3D1%29%7Bval%3D%271%3Cbr/%3Emile%27%3BlabelName%3D%27Event%27%3B%7Delse%20if%28v%3D%3D2%29%7Bval%3D%2710%3Cbr/%3Emiles%27%3BlabelName%3D%27City%27%3B%7Delse%20if%28v%3D%3D3%29%7Bval%3D%27100%3Cbr/%3Emiles%27%3BlabelName%3D%27Area%27%3B%7Delse%20if%28v%3D%3D4%29%7Bval%3D%27%3Cb%3E%26%238734%27%3BlabelName%3D%27Galactic%27%3BlargeFont%3Dtrue%3B%7D%0Avar%20el%3Ddocument.getElementById%28%27DIV%27+labelName+%27Label%27%29%3B%0Ael.setAttribute%28%27class%27%2C%27DIVSliderLabel%20blackForeground%27%29%3B%0Adocument.getElementById%28%27LABELSliderThumb%27%29.setAttribute%28%27class%27%2C%28largeFont%3F%27%20DIVSliderLabelLarge%27%3A%27%27%29%29%3B%0Avar%20tlabel%3Ddocument.getElementById%28%27LABELSliderThumb%27%29%3B%0Atlabel.innerHTML%3Dval%3B%0Aslider.oninput%28%29%3B%0A%7D%0Afunction%20sliderInput%28slider%2Csvalue%29%7B%0Avar%20thumb%3Ddocument.getElementById%28%27IMGSliderThumb%27%29%3B%0Avar%20tlabel%3Ddocument.getElementById%28%27LABELSliderThumb%27%29%3B%0Atlabel.style.left%3Dthumb.style.left%3D%28%28%28100-9*2%29/5%29*svalue%29-4.5+6.4*svalue+%27%25%27%3B%0A%7D%0A",
+                        "innerHTML": "function%20sliderChanged%28slider%2Csvalue%29%7B%0Avar%20v%3Dslider.value%3DMath.round%28svalue%29%3B%0Avar%20val%3D%2710%3Cbr/%3Emiles%27%3B%0Avar%20labels%3Ddocument.getElementById%28%27TABLESlider%27%29.querySelectorAll%28%27DIV%27%29%3B%0Afor%28var%20i%3D0%3Bi%3Clabels.length%3Bi++%29%7Blabels%5Bi%5D.setAttribute%28%27class%27%2C%27DIVSliderLabel%27%29%3B%7D%0Avar%20labelName%3D%27City%27%3B%0Avar%20largeFont%3Dfalse%3B%0Aif%28v%3D%3D0%29%7Bval%3D%27100%3Cbr/%3Eyrds%27%3BlabelName%3D%27Place%27%3B%7Delse%20if%28v%3D%3D1%29%7Bval%3D%271%3Cbr/%3Emile%27%3BlabelName%3D%27Event%27%3B%7Delse%20if%28v%3D%3D2%29%7Bval%3D%2710%3Cbr/%3Emiles%27%3BlabelName%3D%27City%27%3B%7Delse%20if%28v%3D%3D3%29%7Bval%3D%27100%3Cbr/%3Emiles%27%3BlabelName%3D%27Area%27%3B%7Delse%20if%28v%3D%3D4%29%7Bval%3D%27%3Cb%3E%26%238734%27%3BlabelName%3D%27Galactic%27%3BlargeFont%3Dtrue%3B%7D%0Avar%20el%3Ddocument.getElementById%28%27DIV%27+labelName+%27Label%27%29%3B%0Ael.setAttribute%28%27class%27%2C%27DIVSliderLabel%20blackForeground%27%29%3B%0Adocument.getElementById%28%27IMGSliderThumb%27%29.setAttribute%28%27class%27%2C%28largeFont%3F%20%27LABELSliderThumb%20DIVSliderLabelLarge%27%3A%27LABELSliderThumb%27%29%29%3B%0Avar%20tlabel%3Ddocument.getElementById%28%27IMGSliderThumb%27%29%3B%0Atlabel.innerHTML%3Dval%3B%0Aslider.oninput%28%29%3B%0A%7D%0Afunction%20sliderInput%28slider%2Csvalue%29%7B%0Avar%20thumb%3Ddocument.getElementById%28%27IMGSliderThumb%27%29%3B%0Avar%20tlabel%3Ddocument.getElementById%28%27LABELSliderThumb%27%29%3B%0Atlabel.style.left%3Dthumb.style.left%3D%28%28%28100-9*2%29/5%29*svalue%29-4.5+6.4*svalue+%27%25%27%3B%0A%7D",
                         "style": {},
                         "type": "text/javascript",
                         "stylesheetid": "STYLEMain",
@@ -996,9 +1003,9 @@ jsonHash[divHTML.id].c=[
                         "id": "TABLESlider",
                         "innerHTML": "",
                         "style": {
-                            "left": "4%",
-                            "width": "92.18%",
-                            "font-family": "firasansregular, sans-serif, serif, Times",
+                            "left": "2.10vw",
+                            "width": "92.2vw",
+                            "font-family": null,
                             "background-color": "transparent",
                             "margin-top": "",
                             "font-size": "2.11vw",
@@ -1006,7 +1013,7 @@ jsonHash[divHTML.id].c=[
                             "padding-left": "",
                             "display": "table",
                             "opacity": "1 !important",
-                            "top": "22vw",
+                            "top": "23vw",
                             "position": null
                         },
                         "class": "SliderRegion",
@@ -1198,13 +1205,13 @@ jsonHash[divHTML.id].c=[
                         "e": "IMG",
                         "id": "IMGSliderLine",
                         "style": {
-                            "height": "1vw",
-                            "margin-top": "-2.2vw",
+                            "height": "0.8vw",
+                            "margin-top": "-2vw",
                             "display": "block !important",
                             "opacity": "1",
-                            "margin-left": "+3%",
-                            "width": "75%",
-                            "top": "22vw"
+                            "margin-left": "2.75vw",
+                            "width": "74.75vw",
+                            "top": "22.9vw"
                         },
                         "src": "../../image/squaregrey.png",
                         "class": "SliderRegion",
@@ -1220,24 +1227,25 @@ jsonHash[divHTML.id].c=[
                             "left": "",
                             "display": "block !important",
                             "opacity": "1 !important",
-                            "top": "22vw",
+                            "top": "23vw",
                             "z-index": null,
                             "pointer-events": "none"
                         },
                         "c": [
                             {
                                 "e": "IMG",
-                                "id": "IMGSliderThumb",
+                                "id": "IMGSliderThumbHidden",
                                 "style": {
                                     "height": null,
                                     "position": "absolute",
-                                    "opacity": "",
+                                    "opacity": "0",
                                     "margin-left": "4.11%",
                                     "left": "41.1%",
                                     "azimuth": "",
                                     "font-size": null,
                                     "widows": null,
-                                    "width": "8vw"
+                                    "width": "8vw",
+                                    "display": null
                                 },
                                 "src": "../../image/circlegrey.png",
                                 "onload": "document.getElementById%28%27LABELSliderThumb%27%29.style.marginLeft%3D%276.3%25%27",
@@ -1251,8 +1259,8 @@ jsonHash[divHTML.id].c=[
                                 "style": {
                                     "height": "100%",
                                     "position": "absolute",
-                                    "opacity": "",
-                                    "margin-left": "4.2vw",
+                                    "opacity": "0",
+                                    "margin-left": "4.3vw",
                                     "left": "39.25%",
                                     "font-size": "2.5vw",
                                     "padding-top": "1.3vw",
@@ -1267,6 +1275,33 @@ jsonHash[divHTML.id].c=[
                                 },
                                 "stylesheetid": "STYLEMain",
                                 "styleruletype": "ID"
+                            },
+                            {
+                                "e": "BUTTON",
+                                "id": "IMGSliderThumb",
+                                "innerHTML": "10%3Cbr/%3Emiles",
+                                "style": {
+                                    "background-color": "#7c848d",
+                                    "color": "white",
+                                    "padding": "0.25vw 0.25vw 0.25vw 0.25vw",
+                                    "font-size": "3vw",
+                                    "margin-left": "2.4vw",
+                                    "margin-top": "-1vw",
+                                    "border-radius": "9vw",
+                                    "float": "right",
+                                    "display": "inline",
+                                    "clear": "both ",
+                                    "position": "absolute",
+                                    "left": "33vw",
+                                    "width": "10vw",
+                                    "text-align": "center",
+                                    "vertical-align": "middle",
+                                    "height": "10vw",
+                                    "pointer-events": "none"
+                                },
+                                "stylesheetid": "STYLEMain",
+                                "styleruletype": "Class",
+                                "class": "LABELSliderThumb"
                             }
                         ],
                         "class": "SliderRegion",
@@ -1279,8 +1314,8 @@ jsonHash[divHTML.id].c=[
                         "innerHTML": "",
                         "style": {
                             "position": "absolute",
-                            "left": "9.25vw",
-                            "top": "22vw",
+                            "left": "8vw",
+                            "top": "23vw",
                             "width": "80vw",
                             "height": "8.1vw",
                             "color": "",
@@ -1290,7 +1325,8 @@ jsonHash[divHTML.id].c=[
                             "background-color": "",
                             "display": "",
                             "pointer-events": "all",
-                            "border": null
+                            "border": null,
+                            "font-size": null
                         },
                         "type": "range",
                         "max": "4",
@@ -1307,7 +1343,7 @@ jsonHash[divHTML.id].c=[
                     }
                 ],
                 "style": {
-                    "margin-top": "5vw",
+                    "margin-top": "6vw",
                     "position": null,
                     "top": null,
                     "z-index": "1000999999",
@@ -1324,7 +1360,7 @@ jsonHash[divHTML.id].c=[
                 "style": {
                     "position": "absolute",
                     "left": "0%",
-                    "top": "29.5vw",
+                    "top": "29.85vw",
                     "width": "100%",
                     "height": null,
                     "z-index": "1000002"
@@ -1558,13 +1594,14 @@ jsonHash[divHTML.id].c=[
                                                 "innerHTML": "##m ago",
                                                 "style": {
                                                     "font-size": "2.8vw",
-                                                    "margin-left": "6px",
+                                                    "margin-left": null,
                                                     "display": "table-cell",
                                                     "position": "relative",
                                                     "left": "3.5px",
                                                     "top": null,
                                                     "height": "auto",
-                                                    "vertical-align": "middle"
+                                                    "vertical-align": "middle",
+                                                    "padding-left": "1.75vw"
                                                 },
                                                 "stylesheetid": "STYLEMain",
                                                 "styleruletype": "Class",
@@ -1609,7 +1646,8 @@ jsonHash[divHTML.id].c=[
                                             "color": "#f47215",
                                             "font-weight": "bold",
                                             "display": null,
-                                            "float": "right"
+                                            "float": "right",
+                                            "padding-right": "0.5vw"
                                         },
                                         "c": [],
                                         "contenteditable": "",
@@ -1632,7 +1670,8 @@ jsonHash[divHTML.id].c=[
                                             "border-radius": "8px",
                                             "float": "right",
                                             "display": null,
-                                            "clear": "both "
+                                            "clear": "both ",
+                                            "position": null
                                         },
                                         "stylesheetid": "STYLEMain",
                                         "styleruletype": "Class",
@@ -1700,13 +1739,15 @@ jsonHash[divHTML.id].c=[
                                             "left": "4%",
                                             "top": null,
                                             "opacity": null,
-                                            "margin-top": "0.75%",
-                                            "height": "5.5vw"
+                                            "margin-top": "0.5%",
+                                            "height": "5.5vw",
+                                            "z-index": "1000"
                                         },
                                         "src": "../../image/bouncechat_youliked.png",
                                         "stylesheetid": "STYLEMain",
                                         "styleruletype": "Class",
-                                        "class": "ImageHeartList"
+                                        "class": "ImageHeartList",
+                                        "c": []
                                     },
                                     {
                                         "e": "UL",
@@ -1770,46 +1811,53 @@ jsonHash[divHTML.id].c=[
                                 "id": "IMGLastsTimeEternity",
                                 "style": {
                                     "position": "absolute",
-                                    "left": "3.3%",
-                                    "top": "93.5%",
-                                    "height": "4.8%",
-                                    "visibility": null,
-                                    "display": "none"
+                                    "left": "2.4%",
+                                    "top": "92%",
+                                    "height": null,
+                                    "word-spacing": null,
+                                    "width": "9.5%",
+                                    "z-index": "10"
                                 },
                                 "src": "../../image/bouncechat-1_39.png",
                                 "class": "IMGLastsTimeEternity",
                                 "onclick": "this.setAttribute%28%27style%27%2C%20%0A%27display%3Anone%20%21important%3B%27%20%29%3Bvar%20img%3Ddocument.getElementById%28%27IMGLastsTime%27+this.id.replace%28/IMGLastsTimeEternity/%2C%27%27%29%29%3Bimg.setAttribute%28%27style%27%2C%27display%3A%20block%3B%27%29%3B",
                                 "stylesheetid": "STYLEMain",
-                                "styleruletype": "Class"
+                                "styleruletype": "Class",
+                                "c": []
                             },
                             {
                                 "e": "IMG",
                                 "id": "IMGLastsTime",
                                 "style": {
                                     "position": "absolute",
-                                    "left": "3.3%",
-                                    "top": "93.5%",
-                                    "height": "4.8%"
+                                    "left": "2.4%",
+                                    "top": "92%",
+                                    "height": null,
+                                    "word-spacing": null,
+                                    "width": "9.5%",
+                                    "z-index": "10"
                                 },
                                 "src": "../../image/bouncechat-1_40.png",
                                 "class": "IMGLastsTime",
                                 "onclick": "this.setAttribute%28%27style%27%2C%27display%3Anone%20%21important%3B%27%29%3Bvar%20img%3Ddocument.getElementById%28%27IMGLastsTimeEternity%27+this.id.replace%28/IMGLastsTime/g%2C%27%27%29%29%3Bimg.setAttribute%28%27style%27%2C%27display%3Ablock%20%21important%3B%27%29%3B",
                                 "stylesheetid": "STYLEMain",
-                                "styleruletype": "Class"
+                                "styleruletype": "Class",
+                                "c": []
                             },
                             {
                                 "e": "LABEL",
                                 "id": "LABELLastsTimeLabel",
                                 "innerHTML": "Lasts for eternity",
                                 "style": {
-                                    "left": "11%",
+                                    "left": "11.5%",
                                     "width": "376px",
                                     "height": "2%",
                                     "position": "absolute",
                                     "color": "grey",
                                     "font-size": "2.3vw",
                                     "margin-top": "+2.6%",
-                                    "top": "93%"
+                                    "top": "93%",
+                                    "z-index": "1000"
                                 },
                                 "c": [],
                                 "contenteditable": "",
@@ -1827,13 +1875,15 @@ jsonHash[divHTML.id].c=[
                                     "top": "93%",
                                     "width": "6.4%",
                                     "visibility": "hidden",
-                                    "pointer-events": "none"
+                                    "pointer-events": "none",
+                                    "z-index": "1000"
                                 },
                                 "src": "../../image/bouncechat_youliked.png",
                                 "stylesheetid": "STYLEMain",
                                 "styleruletype": "Class",
                                 "class": "IMGHeartLikeImage",
-                                "onclick": "this.style.visibility%3D%27hidden%27%3Bthis.style.pointerEvents%3D%27none%27%3Bvar%20img%3Ddocument.getElementById%28%27IMGHeartNoLikes%27+this.id.replace%28%27IMGHeartYouLiked%27%2C%27%27%29%29%3Bimg.style.visibility%3D%27visible%27%3Bimg.style.pointerEvents%3D%27all%27%3B"
+                                "onclick": "this.style.visibility%3D%27hidden%27%3Bthis.style.pointerEvents%3D%27none%27%3Bvar%20img%3Ddocument.getElementById%28%27IMGHeartNoLikes%27+this.id.replace%28%27IMGHeartYouLiked%27%2C%27%27%29%29%3Bimg.style.visibility%3D%27visible%27%3Bimg.style.pointerEvents%3D%27all%27%3B",
+                                "c": []
                             },
                             {
                                 "e": "IMG",
@@ -1843,13 +1893,15 @@ jsonHash[divHTML.id].c=[
                                     "left": "64%",
                                     "top": "93%",
                                     "width": "6.4%",
-                                    "pointer-events": "pointer"
+                                    "pointer-events": "pointer",
+                                    "z-index": "1000"
                                 },
                                 "src": "../../image/bouncechat_nolikes.png",
                                 "class": "IMGHeartNoLikes",
                                 "onclick": "var%20otherimgID%3D%27IMGHeartYouLiked%27+this.id.replace%28%27IMGHeartNoLikes%27%2C%27%27%29%3Bthis.style.visibility%3D%27hidden%27%3Bvar%20img%3Ddocument.getElementById%28otherimgID%29%3Bimg.style.visibility%3D%27visible%27%3Bimg.style.pointerEvents%3D%27all%27%3Bthis.style.pointerEvents%3D%27none%27%3B",
                                 "stylesheetid": "STYLEMain",
-                                "styleruletype": "Class"
+                                "styleruletype": "Class",
+                                "c": []
                             },
                             {
                                 "e": "IMG",
@@ -1886,8 +1938,8 @@ jsonHash[divHTML.id].c=[
                                 "id": "IMGSubMenuIcon",
                                 "style": {
                                     "position": "absolute",
-                                    "left": "89%",
-                                    "top": "92.26%",
+                                    "left": "88.5%",
+                                    "top": "92.4%",
                                     "margin-left": "",
                                     "margin-right": "",
                                     "margin-top": "",
@@ -1962,9 +2014,9 @@ jsonHash[divHTML.id].c=[
                     "top": null,
                     "width": "auto",
                     "height": "auto",
-                    "margin-left": "-1.75%",
+                    "margin-left": "-2.75%",
                     "margin-right": "",
-                    "margin-top": "1%",
+                    "margin-top": "0.25%",
                     "margin-bottom": "",
                     "background-color": "red",
                     "color": "white",
@@ -1999,7 +2051,8 @@ jsonHash[divHTML.id].c=[
                 "value": "Bounce%20what%20you%20love%21",
                 "stylesheetid": "STYLEMain",
                 "styleruletype": "Class",
-                "class": "INPUTBounceText"
+                "class": "INPUTBounceText",
+                "onfocus": "if%28this.value%3D%3D%27Bounce%20what%20you%20love%21%27%29%7Bthis.value%3D%27%27%3B%7D"
             },
             {
                 "e": "IMG",
@@ -2026,9 +2079,9 @@ jsonHash[divHTML.id].c=[
                     "position": "absolute",
                     "margin-right": "1%",
                     "top": "0%",
-                    "margin-top": "1%",
+                    "margin-top": null,
                     "width": " ",
-                    "height": "98%"
+                    "height": "85%"
                 },
                 "src": "../../image/map.png",
                 "stylesheetid": "STYLEMain",
@@ -2042,9 +2095,9 @@ jsonHash[divHTML.id].c=[
                 "stylesheetid": "STYLEMain",
                 "styleruletype": "ID",
                 "style": {
-                    "height": "98%",
+                    "height": "85%",
                     "margin-left": "1%",
-                    "margin-top": "1%",
+                    "margin-top": null,
                     "top": "0%"
                 },
                 "src": "../../image/ic_action_person.png"
