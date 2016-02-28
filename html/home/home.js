@@ -2,7 +2,7 @@ jsonHash[divHTML.id].c=[
     {
         "e": "STYLE",
         "id": "STYLEMain",
-        "innerHTML": "html%2C%20body%2C%20div%2C%20span%2C%20applet%2C%20object%2C%20iframe%2Ch1%2C%20h2%2C%20h3%2C%20h4%2C%20h5%2C%20h6%2C%20p%2C%20blockquote%2C%20pre%2Ca%2C%20abbr%2C%20acronym%2C%20address%2C%20big%2C%20cite%2C%20code%2Cdel%2C%20dfn%2C%20em%2C%20font%2C%20img%2C%20ins%2C%20kbd%2C%20q%2C%20s%2C%20samp%2Csmall%2C%20strike%2C%20strong%2C%20sub%2C%20sup%2C%20tt%2C%20var%2Cb%2C%20u%2C%20i%2C%20center%2C%20dl%2C%20dt%2C%20dd%2C%20ol%2C%20ul%2C%20li%2Cfieldset%2C%20form%2C%20label%2C%20legend%2C%20table%2C%20caption%2C%20tbody%2C%20tfoot%2C%20thead%2C%20tr%2C%20th%2C%20td%20%2Cfigure%7Bmargin%3A%200%3Bpadding%3A%200%3Bborder%3A%200%3Boutline%3A%200%3Bfont-size%3A%20100%25%3Bvertical-align%3A%20baseline%3Bbackground%3A%20transparent%3B-webkit-margin-before%3A%20em%3B-webkit-margin-after%3A%200em%3B-webkit-margin-start%3A%200px%3B-webkit-margin-end%3A%200px%3B%7D%0Aheader%7Bbackground-color%3Awhite%3B%7D%0Abody%7Bline-height%3A1%3Bbackground-color%3Awhite%3B%7D%0Aol%2C%20ul%7Blist-style%3A%20none%3B%7D%0ADIVSliderLabelLarge%7Bfont-size%3A%205.3vw%3B%7D%0Ablockquote%2C%20q%7Bquotes%3A%20none%3B%7D%0Ablockquote%3Abefore%2C%20blockquote%3Aafter%2C%0Aq%3Abefore%2C%20q%3Aafter%20%7Bcontent%3A%20%27%27%3B%20content%3A%20none%3B%7D%0A%3Afocus%7Boutline%3A%200%3B%7D%0Ains%7Btext-decoration%3A%20none%3B%7D%0Adel%7Btext-decoration%3A%20line-through%3B%7D%0Atableborder-collapse%3A%20collapse%3Bborder-spacing%3A%200%3B%7D%0A@font-face%20%7B%0A%20%20%20%20font-family%3A%20%27firasansregular%27%3B%0A%20%20%20%20src%3A%20url%28%27../../html/home/firasans-regular-webfont.eot%27%29%3B%0A%20%20%20%20src%3A%20url%28%27../../html/home/firasans-regular-webfont.eot%3F%23iefix%27%29%20format%28%27embedded-opentype%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.woff2%27%29%20format%28%27woff2%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.woff%27%29%20format%28%27woff%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.ttf%27%29%20format%28%27truetype%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.svg%23fira_sansregular%27%29%20format%28%27svg%27%29%2C%20arial%3B%0A%20%20%20%20font-weight%3A%20normal%3B%0A%20%20%20%20font-style%3A%20normal%3B%0A%7D%0ABODY%7B%0Afont-family%3A%20%27firasansregular%27%2Carial%3B%0A%7D%0A*%7B%0A-webkit-user-select%3A%20none%3B%0A-moz-user-select%3A%20none%3B%0A-ms-user-select%3A%20none%3B%0Auser-select%3A%20none%3B%0A%7D%0A.mainConfigFormRowElementLabel%20%7Btext-align%3Aright%3Bdisplay%3Ainline%3B%20width%3A20%25%3B%7D%0A.mainConfigFormRowElement%20%7Btext-align%3Aleft%3Bdisplay%3Ainline%3B%20width%3A20%25%3B%7D%0A%23DIVMainConfigWin%20%3E%20*%20%7B%20background-color%3A%20transparent%20%21important%3B%20opacity%3A1%3B%7D%0A%23DIVImageSpacers%20IMG%20%7Bopacity%3A1%3B%7D%0A%23DIVSlider%20%3E%20*%20%7B%20margin-top%3A-5.8%25%3B%7D%0A.DIVSliderLabelLarge%7Bfont-size%3A%205.3vw%20%21important%3B%7D%0A.ANAVChat%7B%20pointer-events%3A%20all%3B%20font-size%3A%202.2vw%3B%20padding%3A%208px%2015px%208px%2015px%3B%20margin-top%3A%20+5px%3B%20display%3A%20table-cell%3B%20text-align%3A%20center%3B%7D%0A.blackForeground%7Bcolor%3Ablack%20%21important%3B%7D%0A.underline%7Btext-decoration%3Aunderline%3B%7D%0A.opaque%7Bopacity%3A1%3B%7D%0A.hidden%7Bdisplay%3Anone%3B%7D",
+        "innerHTML": "html%2C%20body%2C%20div%2C%20span%2C%20applet%2C%20object%2C%20iframe%2C%20header%2C%20h1%2C%20h2%2C%20h3%2C%20h4%2C%20h5%2C%20h6%2C%20p%2C%20blockquote%2C%20pre%2Ca%2C%20abbr%2C%20acronym%2C%20address%2C%20big%2C%20cite%2C%20code%2Cdel%2C%20dfn%2C%20em%2C%20font%2C%20img%2C%20ins%2C%20kbd%2C%20q%2C%20s%2C%20samp%2Csection%2C%20small%2C%20strike%2C%20strong%2C%20sub%2C%20sup%2C%20tt%2C%20var%2Cb%2C%20u%2C%20i%2C%20center%2C%20dl%2C%20dt%2C%20dd%2C%20ol%2C%20ul%2C%20li%2Cfieldset%2C%20form%2C%20label%2C%20legend%2C%20table%2C%20caption%2C%20tbody%2C%20tfoot%2C%20thead%2C%20tr%2C%20th%2C%20td%20%2Cfigure%7Bmargin%3A%200%3Bpadding%3A%200%3Bborder%3A%200%3Boutline%3A%200%3Bfont-size%3A%20100%25%3Bvertical-align%3A%20baseline%3Bbackground%3A%20transparent%3B-webkit-margin-before%3A%20em%3B-webkit-margin-after%3A%200em%3B-webkit-margin-start%3A%200px%3B-webkit-margin-end%3A%200px%3B%7D%0Aheader%7Bbackground-color%3Awhite%3B%7D%0Abody%7Bline-height%3A1%3Bbackground-color%3Awhite%3B%7D%0Aol%2C%20ul%7Blist-style%3A%20none%3B%7D%0ADIVSliderLabelLarge%7Bfont-size%3A%205.3vw%3B%7D%0Ablockquote%2C%20q%7Bquotes%3A%20none%3B%7D%0Ablockquote%3Abefore%2C%20blockquote%3Aafter%2C%0Aq%3Abefore%2C%20q%3Aafter%20%7Bcontent%3A%20%27%27%3B%20content%3A%20none%3B%7D%0A%3Afocus%7Boutline%3A%200%3B%7D%0Ains%7Btext-decoration%3A%20none%3B%7D%0Adel%7Btext-decoration%3A%20line-through%3B%7D%0Atableborder-collapse%3A%20collapse%3Bborder-spacing%3A%200%3B%7D%0A@font-face%20%7B%0A%20%20%20%20font-family%3A%20%27firasansregular%27%3B%0A%20%20%20%20src%3A%20url%28%27../../html/home/firasans-regular-webfont.eot%27%29%3B%0A%20%20%20%20src%3A%20url%28%27../../html/home/firasans-regular-webfont.eot%3F%23iefix%27%29%20format%28%27embedded-opentype%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.woff2%27%29%20format%28%27woff2%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.woff%27%29%20format%28%27woff%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.ttf%27%29%20format%28%27truetype%27%29%2C%0A%20%20%20%20%20%20%20%20%20url%28%27../../html/home/firasans-regular-webfont.svg%23fira_sansregular%27%29%20format%28%27svg%27%29%2C%20arial%3B%0A%20%20%20%20font-weight%3A%20normal%3B%0A%20%20%20%20font-style%3A%20normal%3B%0A%7D%0ABODY%7B%0Afont-family%3A%20%27firasansregular%27%2Carial%3B%0A%7D%0A*%7B%0A-webkit-user-select%3A%20none%3B%0A-moz-user-select%3A%20none%3B%0A-ms-user-select%3A%20none%3B%0Auser-select%3A%20none%3B%0A%7D%0A.mainConfigFormRowElementLabel%20%7Btext-align%3Aright%3Bdisplay%3Ainline%3B%20width%3A20%25%3B%7D%0A.mainConfigFormRowElement%20%7Btext-align%3Aleft%3Bdisplay%3Ainline%3B%20width%3A20%25%3B%7D%0A%23DIVMainConfigWin%20%3E%20*%20%7B%20background-color%3A%20transparent%20%21important%3B%20opacity%3A1%3B%7D%0A%23DIVImageSpacers%20IMG%20%7Bopacity%3A1%3B%7D%0A%23DIVSlider%20%3E%20*%20%7B%20margin-top%3A-5.8%25%3B%7D%0A.DIVSliderLabelLarge%7Bfont-size%3A%205.3vw%20%21important%3B%7D%0A.ANAVChat%7B%20pointer-events%3A%20all%3B%20font-size%3A%202.2vw%3B%20padding%3A%208px%2015px%208px%2015px%3B%20margin-top%3A%20+5px%3B%20display%3A%20table-cell%3B%20text-align%3A%20center%3B%7D%0A.blackForeground%7Bcolor%3Ablack%20%21important%3B%7D%0A.underline%7Btext-decoration%3Aunderline%3B%7D%0A.opaque%7Bopacity%3A1%3B%7D%0A.hidden%7Bdisplay%3Anone%3B%7D",
         "style": {
             "width": null,
             "height": null
@@ -786,7 +786,7 @@ jsonHash[divHTML.id].c=[
                 "style": {
                     "position": "absolute",
                     "left": "0.25%",
-                    "top": "2vw",
+                    "top": "1.8vw",
                     "width": "9vw",
                     "height": "auto",
                     "z-index": "10008"
@@ -883,11 +883,11 @@ jsonHash[divHTML.id].c=[
                 "id": "NAVChats",
                 "style": {
                     "position": "absolute",
-                    "left": "3%",
+                    "left": "2.8vw",
                     "top": "8.5vw",
                     "width": "91.5vw",
                     "height": null,
-                    "margin-top": "1.1vw",
+                    "margin-top": "1.45vw",
                     "background-color": "transparent",
                     "display": "table",
                     "z-index": "1000000",
@@ -1407,7 +1407,11 @@ jsonHash[divHTML.id].c=[
                                         "src": "../../image/appicon.png",
                                         "stylesheetid": "STYLEMain",
                                         "styleruletype": "Class",
-                                        "class": "IMGChatMemberPicture"
+                                        "class": "IMGChatMemberPicture",
+                                        "c": [],
+                                        "innerHTML": "",
+                                        "contenteditable": "",
+                                        "dropzone": ""
                                     }
                                 ],
                                 "stylesheetid": "STYLEMain",
@@ -2079,14 +2083,15 @@ jsonHash[divHTML.id].c=[
                     "position": "absolute",
                     "margin-right": "1%",
                     "top": "0%",
-                    "margin-top": null,
+                    "margin-top": "0.25",
                     "width": " ",
                     "height": "85%"
                 },
                 "src": "../../image/map.png",
                 "stylesheetid": "STYLEMain",
                 "styleruletype": "Class",
-                "class": "IMGFooterMap"
+                "class": "IMGFooterMap",
+                "onclick": "OnClick%20Event"
             },
             {
                 "e": "IMG",
@@ -2095,9 +2100,9 @@ jsonHash[divHTML.id].c=[
                 "stylesheetid": "STYLEMain",
                 "styleruletype": "ID",
                 "style": {
-                    "height": "85%",
+                    "height": "90%",
                     "margin-left": "1%",
-                    "margin-top": null,
+                    "margin-top": "0.25%",
                     "top": "0%"
                 },
                 "src": "../../image/ic_action_person.png"
