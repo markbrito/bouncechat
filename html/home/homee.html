@@ -63,11 +63,12 @@ user-select: none;
 #INPUTBounceSearchEternity{ width: 8%;}
 #INPUTBounceSearchRandom{ width: 8%;}
 #DIVBounceSearchRepeatAndBind{ display: block; position: absolute; left: 100%; top: 0%; width: 20%; height: 100%;}
-#FORMBounceSearchRepeatAndBind{ width: 100%; height: 100%; position: absolute; left: 0%; top: 0%;}
+#FORMBounceSearchRepeatAndBind{ width: 140%; height: 100%; position: absolute; left: 0%; top: 0%;}
 #SELECTBounceSearch{ position: absolute; left: 0%; top: 0%; width: 100% !important; height: 100%;}
 #DIVSearchBindReset{ position: absolute; left: 0%; top: 101%;}
 #IFRAMESearch{ position: absolute;}
-#BUTTONBindBounceSearch{ top: 101%; position: absolute; left: 0%;}
+#BUTTONBindBounceSearch{ top: 101%; position: absolute; left: 0%; display: block;}
+#TEXTAREASearchChatLog{ display: block; width: 55vw;}
 #HEADERMain{ position: absolute; left: 0%; top: 0%; width: 98%; height: auto; z-index: 1000001;}
 #DIVAppIconLinks{ position: absolute; left: 1%; top: 2%; width: 25%; margin-top: 5px;}
 #IMGAppleApp{ height: auto; position: absolute; left: 0%; top: 0%; width: 20%;}
@@ -151,9 +152,12 @@ user-select: none;
 if(ev!=null && ev!=undefined){
 ev.preventDefault();
 }
-console.debug('loadScript('+url+') Loading');
+if(document.getElementById('INPUTSearchBindReset').checked){
+document.getElementById('TEXTAREASearchChatLog').innerHTML='';
+}
+document.getElementById('TEXTAREASearchChatLog').innerHTML+='loadScript('+url+') Loading';
 eval('document.callback'+varName+'=callback;');
-var js='document.xhr'+varName+'=new XMLHttpRequest(); \n document.xhr'+varName+".onreadystatechange=function(data,textStatus,jqXHR){\n if( document.xhr"+varName+".readyState===XMLHttpRequest.DONE){if(document.xhr"+varName+".status===200){\n console.debug(\"loadScript(\'"+url+"\') Loaded\");\n eval(\'document."+varName+"=document.xhr"+varName+".responseText;\');\ndocument.callback"+varName+"(); }}};\ndocument.xhr"+varName+".open(\'GET\',\'"+url+"\');\ndocument.xhr"+varName+".send();";
+var js='document.xhr'+varName+'=new XMLHttpRequest(); \n document.xhr'+varName+".onreadystatechange=function(data,textStatus,jqXHR){\n if( document.xhr"+varName+".readyState===XMLHttpRequest.DONE){if(document.xhr"+varName+".status===200){\ndocument.getElementById(\'TEXTAREASearchChatLog\').innerHTML+=\"loadScript(\'"+url+"\') Loaded\";\n eval(\'document.getElementById(\\\'TEXTAREASearchChatLog\\\').innerHTML+=document."+varName+"=document.xhr"+varName+".responseText;\');\ndocument.callback"+varName+"(); }}};\ndocument.xhr"+varName+".open(\'GET\',\'"+url+"\');\ndocument.xhr"+varName+".send();";
 eval(js);
 return false;
 }
@@ -310,7 +314,8 @@ return false;
 								<span id="SPANSearchBindReset" stylesheetid="STYLEMain" styleruletype="ID">Reset?</span>
 								<input id="INPUTSearchBindReset" stylesheetid="STYLEMain" styleruletype="ID" type="checkbox" checked="true"></div></form></div>
 					<iframe id="IFRAMESearch"></iframe>
-					<button id="BUTTONBindBounceSearch" onclick="eval(document.getElementById('SCRIPTBounceSearch').innerHTML);var formIDSearch = 'FORMBounceSearch';var documentVariableName = 'defaultSearch';var formIDBind='FORMBounceSearchRepeatAndBind';var rootRepeatID='ARTICLEBounce'; if(document.getElementById('INPUTSearchBindReset').checked){ document.getElementById( 'SELECTBounceSearch').options.length=0; } document.repeatAndBind(this, event, formIDSearch, documentVariableName,function(){eval( 'console.debug(xhr' + documentVariableName + '.responseText);');eval('document.'+documentVariableName+'=document.xhr'+documentVariableName+'.responseText;');}, formIDBind, rootRepeatID);return false;">Repeat/Bind</button></details></div></div>
+					<button id="BUTTONBindBounceSearch" onclick="eval(document.getElementById('SCRIPTBounceSearch').innerHTML);var formIDSearch = 'FORMBounceSearch';var documentVariableName = 'defaultSearch';var formIDBind='FORMBounceSearchRepeatAndBind';var rootRepeatID='ARTICLEBounce'; if(document.getElementById('INPUTSearchBindReset').checked){ document.getElementById( 'SELECTBounceSearch').options.length=0; } document.repeatAndBind(this, event, formIDSearch, documentVariableName,function(){eval( 'console.debug(xhr' + documentVariableName + '.responseText);');eval('document.'+documentVariableName+'=document.xhr'+documentVariableName+'.responseText;');}, formIDBind, rootRepeatID);return false;">Repeat/Bind</button>
+					<textarea id="TEXTAREASearchChatLog"></textarea></details></div></div>
 		<header id="HEADERMain" class="mainConfigFormRowElementLabel">
 			<div id="DIVAppIconLinks">
 				<img id="IMGAppleApp" src="../../image/Apple.jpg">
