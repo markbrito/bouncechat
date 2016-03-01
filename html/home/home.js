@@ -78,7 +78,7 @@ jsonHash[divHTML.id].c=[
                                 "style": {},
                                 "stylesheetid": "STYLEMain",
                                 "styleruletype": "ID",
-                                "innerHTML": "document.loadJS%3Dfunction%28url%2Ce%2Cev%2CvarName%2Ccallback%29%7B%0Aif%28ev%21%3Dnull%20%26%26%20ev%21%3Dundefined%29%7B%0Aev.preventDefault%28%29%3B%0A%7D%0Aconsole.debug%28%27loadScript%28%27+url+%27%29%20Loading%27%29%3B%0Aeval%28%27document.callback%27+varName+%27%3Dcallback%3B%27%29%3B%0Avar%20js%3D%27document.xhr%27+varName+%27%3Dnew%20XMLHttpRequest%28%29%3B%20%5Cn%20document.xhr%27+varName+%22.onreadystatechange%3Dfunction%28data%2CtextStatus%2CjqXHR%29%7B%5Cn%20if%28%20document.xhr%22+varName+%22.readyState%3D%3D%3DXMLHttpRequest.DONE%29%7Bif%28document.xhr%22+varName+%22.status%3D%3D%3D200%29%7B%5Cn%20console.debug%28%5C%22loadScript%28%5C%27%22+url+%22%5C%27%29%20Loaded%5C%22%29%3B%5Cn%20eval%28%5C%27document.%22+varName+%22%3Ddocument.xhr%22+varName+%22.responseText%3B%5C%27%29%3B%5Cndocument.callback%22+varName+%22%28%29%3B%20%7D%7D%7D%3B%5Cndocument.xhr%22+varName+%22.open%28%5C%27GET%5C%27%2C%5C%27%22+url+%22%5C%27%29%3B%5Cndocument.xhr%22+varName+%22.send%28%29%3B%22%3B%0Aeval%28js%29%3B%0Areturn%20false%3B%0A%7D%0Afunction%20init%28%29%7B%0Aeval%28document.getElementById%28%27SCRIPTBounceSearch%27%29.innerHTML%29%3B%0Adocument.getElementById%28%27BUTTONBindBounceSearch%27%29.click%28%29%3B%0A%7D%0A%09%09%09%09"
+                                "innerHTML": "document.loadJS%3Dfunction%28url%2Ce%2Cev%2CvarName%2Ccallback%29%7B%0Aif%28ev%21%3Dnull%20%26%26%20ev%21%3Dundefined%29%7B%0Aev.preventDefault%28%29%3B%0A%7D%0Aif%28document.getElementById%28%27INPUTSearchBindReset%27%29.checked%29%7B%0Adocument.getElementById%28%27TEXTAREASearchChatLog%27%29.innerHTML%3D%27%27%3B%0A%7D%0Adocument.getElementById%28%27TEXTAREASearchChatLog%27%29.innerHTML+%3D%27loadScript%28%27+url+%27%29%20Loading%27%3B%0Aeval%28%27document.callback%27+varName+%27%3Dcallback%3B%27%29%3B%0Avar%20js%3D%27document.xhr%27+varName+%27%3Dnew%20XMLHttpRequest%28%29%3B%20%5Cn%20document.xhr%27+varName+%22.onreadystatechange%3Dfunction%28data%2CtextStatus%2CjqXHR%29%7B%5Cn%20if%28%20document.xhr%22+varName+%22.readyState%3D%3D%3DXMLHttpRequest.DONE%29%7Bif%28document.xhr%22+varName+%22.status%3D%3D%3D200%29%7B%5Cndocument.getElementById%28%5C%27TEXTAREASearchChatLog%5C%27%29.innerHTML+%3D%5C%22loadScript%28%5C%27%22+url+%22%5C%27%29%20Loaded%5C%22%3B%5Cn%20eval%28%5C%27document.getElementById%28%5C%5C%5C%27TEXTAREASearchChatLog%5C%5C%5C%27%29.innerHTML+%3Ddocument.%22+varName+%22%3Ddocument.xhr%22+varName+%22.responseText%3B%5C%27%29%3B%5Cndocument.callback%22+varName+%22%28%29%3B%20%7D%7D%7D%3B%5Cndocument.xhr%22+varName+%22.open%28%5C%27GET%5C%27%2C%5C%27%22+url+%22%5C%27%29%3B%5Cndocument.xhr%22+varName+%22.send%28%29%3B%22%3B%0Aeval%28js%29%3B%0Areturn%20false%3B%0A%7D%0Afunction%20init%28%29%7B%0Aeval%28document.getElementById%28%27SCRIPTBounceSearch%27%29.innerHTML%29%3B%0Adocument.getElementById%28%27BUTTONBindBounceSearch%27%29.click%28%29%3B%0A%7D%0A%09%09%09%09"
                             },
                             {
                                 "e": "SCRIPT",
@@ -524,7 +524,7 @@ jsonHash[divHTML.id].c=[
                                         "stylesheetid": "STYLEMain",
                                         "styleruletype": "ID",
                                         "style": {
-                                            "width": "100%",
+                                            "width": "140%",
                                             "height": "100%",
                                             "position": "absolute",
                                             "left": "0%",
@@ -618,9 +618,21 @@ jsonHash[divHTML.id].c=[
                                 "style": {
                                     "top": "101%",
                                     "position": "absolute",
-                                    "left": "0%"
+                                    "left": "0%",
+                                    "display": "block"
                                 },
                                 "onclick": "eval%28document.getElementById%28%27SCRIPTBounceSearch%27%29.innerHTML%29%3Bvar%20formIDSearch%20%3D%20%27FORMBounceSearch%27%3Bvar%20documentVariableName%20%3D%20%27defaultSearch%27%3Bvar%20formIDBind%3D%27FORMBounceSearchRepeatAndBind%27%3Bvar%20rootRepeatID%3D%27ARTICLEBounce%27%3B%20if%28document.getElementById%28%27INPUTSearchBindReset%27%29.checked%29%7B%20document.getElementById%28%20%27SELECTBounceSearch%27%29.options.length%3D0%3B%20%7D%20document.repeatAndBind%28this%2C%20event%2C%20formIDSearch%2C%20documentVariableName%2Cfunction%28%29%7Beval%28%20%27console.debug%28xhr%27%20+%20documentVariableName%20+%20%27.responseText%29%3B%27%29%3Beval%28%27document.%27+documentVariableName+%27%3Ddocument.xhr%27+documentVariableName+%27.responseText%3B%27%29%3B%7D%2C%20formIDBind%2C%20rootRepeatID%29%3Breturn%20false%3B"
+                            },
+                            {
+                                "e": "TEXTAREA",
+                                "id": "TEXTAREASearchChatLog",
+                                "innerHTML": "",
+                                "stylesheetid": "STYLEMain",
+                                "styleruletype": "ID",
+                                "style": {
+                                    "display": "block",
+                                    "width": "55vw"
+                                }
                             }
                         ],
                         "stylesheetid": "STYLEMain",
@@ -2194,4 +2206,4 @@ jsonHash[divHTML.id].c=[
         "stylesheetid": "STYLEMain",
         "styleruletype": "ID"
     }
-]£
+]
